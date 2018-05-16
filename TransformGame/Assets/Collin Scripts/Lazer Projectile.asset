@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 66fa0b780bff3694ab88d4e4033ededa, type: 3}
+  m_Name: Lazer Projectile
+  m_EditorClassIdentifier: 
+  projectilePrefab: {fileID: 1217617503432662, guid: 4ab2536d3c1bcb34295e3bbe2ee4c899,
+    type: 2}
+  projectileLifetime: 2
+  cooldown: 5
+  parent: 1

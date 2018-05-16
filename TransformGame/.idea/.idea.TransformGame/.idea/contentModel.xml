@@ -1,121 +1,150 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="$PROJECT_DIR$" t="IncludeRecursive">
-      <e p="Assembly-CSharp-Editor-firstpass.csproj" t="IncludeRecursive" />
+    <e p="C:\Users\genar\.Rider2018.1\system\resharper-host\local\Transient\ReSharperHost\v12\SolutionCaches\_TransformGame.19066718.00" t="ExcludeRecursive" />
+    <e p="E:\GIT\rollout\TransformGame" t="IncludeRecursive">
       <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
-      <e p="Assets" t="Include">
-        <e p="ArtisanDream" t="Include">
+      <e p="Assets\ArtisanDream" t="Include">
+        <e p="AI" t="Include">
+          <e p="NoNew.cs" t="Include" />
+          <e p="Scripts" t="Include">
+            <e p="AiBase.cs" t="Include" />
+            <e p="AiBehaviour.cs" t="Include" />
+            <e p="AiBrain.cs" t="Include" />
+            <e p="AiHunt.cs" t="Include" />
+            <e p="AiIdle.cs" t="Include" />
+            <e p="AiPatrol.cs" t="Include" />
+            <e p="AiStateBehavior.cs" t="Include" />
+            <e p="NavMeshBehaviour.cs" t="Include" />
+            <e p="PatrolPointControl.cs" t="Include" />
+          </e>
+        </e>
+        <e p="CharacterScripts" t="Include">
           <e p="AI" t="Include">
-            <e p="Scripts" t="Include">
-              <e p="AiBase.cs" t="Include" />
-              <e p="AiBehaviour.cs" t="Include" />
-              <e p="AiBrain.cs" t="Include" />
-              <e p="AiHunt.cs" t="Include" />
-              <e p="AiIdle.cs" t="Include" />
-              <e p="AiPatrol.cs" t="Include" />
-              <e p="AiStateBehavior.cs" t="Include" />
-              <e p="PatrolPointControl.cs" t="Include" />
-            </e>
+            <e p="ActivateEnemyAI.cs" t="Include" />
+            <e p="EnemyActivateMeleeOnTrigger.cs" t="Include" />
+            <e p="EnemyAutoFire.cs" t="Include" />
+            <e p="EnemyController.cs" t="Include" />
+            <e p="EnemyDirectionChanger.cs" t="Include" />
+            <e p="EnemyFiringStateMachine.cs" t="Include" />
+            <e p="EnemyMelee_PlayerFXCall.cs" t="Include" />
+            <e p="EnemyMeleeOnAnimator.cs" t="Include" />
+            <e p="EnemyRetargetCall.cs" t="Include" />
+            <e p="EnemySpawnerDelegate.cs" t="Include" />
+            <e p="EnemyTargetDirector.cs" t="Include" />
+            <e p="EnemyWeaponFX.cs" t="Include" />
           </e>
-          <e p="Generics" t="Include">
-            <e p="Scripts" t="Include">
-              <e p="ActionHandlers" t="Include">
-                <e p="GameActionHandler.cs" t="Include" />
-                <e p="TextActionHandler.cs" t="Include" />
-              </e>
-              <e p="Actions" t="Include">
-                <e p="GameAction.cs" t="Include" />
-              </e>
-              <e p="Behaviours" t="Include">
-                <e p="ChildObject.cs" t="Include" />
-                <e p="ClickRunActionBehaviour.cs" t="Include" />
-                <e p="ParentObject.cs" t="Include" />
-                <e p="SendGameObject.cs" t="Include" />
-                <e p="StartActionBehaviour.cs" t="Include" />
-              </e>
-              <e p="DataStorage" t="Include">
-                <e p="Examples" t="Include">
-                  <e p="Scripts" t="Include">
-                    <e p="StringData.cs" t="Include" />
-                    <e p="TextUI.cs" t="Include" />
-                  </e>
-                </e>
+          <e p="Inputs" t="Include">
+            <e p="MoveCharacterViaButtons.cs" t="Include" />
+            <e p="MoveViaKeys.cs" t="Include" />
+          </e>
+          <e p="PlayerCharacter" t="Include">
+            <e p="AnimateCharacter.cs" t="Include" />
+            <e p="CharacterHealthKiller.cs" t="Include" />
+            <e p="CharacterMovement.cs" t="Include" />
+            <e p="EndPlayer.cs" t="Include" />
+            <e p="FlipCharacter.cs" t="Include" />
+            <e p="MoveAndJumpCharacter.cs" t="Include" />
+            <e p="MoveInputs.cs" t="Include" />
+          </e>
+        </e>
+        <e p="Generics" t="Include">
+          <e p="Scripts" t="Include">
+            <e p="ActionHandlers" t="Include">
+              <e p="GameActionHandler.cs" t="Include" />
+              <e p="TextActionHandler.cs" t="Include" />
+            </e>
+            <e p="Actions" t="Include">
+              <e p="GameAction.cs" t="Include" />
+            </e>
+            <e p="Behaviours" t="Include">
+              <e p="ChildObject.cs" t="Include" />
+              <e p="ClickRunActionBehaviour.cs" t="Include" />
+              <e p="ParentObject.cs" t="Include" />
+              <e p="StartActionBehaviour.cs" t="Include" />
+            </e>
+            <e p="DataStorage" t="Include">
+              <e p="Examples" t="Include">
                 <e p="Scripts" t="Include">
-                  <e p="DataStorage.cs" t="Include" />
+                  <e p="StringData.cs" t="Include" />
+                  <e p="TextUI.cs" t="Include" />
                 </e>
               </e>
-              <e p="Interfaces" t="Include">
-                <e p="IAction.cs" t="Include" />
-              </e>
-              <e p="Legacy" t="Include">
-                <e p="SendAndGetObject.cs" t="Include" />
-              </e>
-              <e p="Objects" t="Include">
-                <e p="GenericObjects.cs" t="Include" />
-                <e p="GenericObjectsBase.cs" t="Include" />
+              <e p="Scripts" t="Include">
+                <e p="DataStorage.cs" t="Include" />
               </e>
             </e>
-          </e>
-          <e p="Unite2017" t="Include">
-            <e p="Assets" t="Include">
-              <e p="Code" t="Include">
-                <e p="Elements" t="Include">
-                  <e p="AttackElement.cs" t="Include" />
-                  <e p="Elemental.cs" t="Include" />
-                </e>
-                <e p="Events" t="Include">
-                  <e p="Editor" t="Include">
-                    <e p="EventEditor.cs" t="Include" />
-                  </e>
-                  <e p="GameEvent.cs" t="Include" />
-                  <e p="GameEventListener.cs" t="Include" />
-                </e>
-                <e p="Sets" t="Include">
-                  <e p="RuntimeSet.cs" t="Include" />
-                  <e p="Thing.cs" t="Include" />
-                  <e p="ThingDisabler.cs" t="Include" />
-                  <e p="ThingMonitor.cs" t="Include" />
-                  <e p="ThingRuntimeSet.cs" t="Include" />
-                </e>
-                <e p="Variables" t="Include">
-                  <e p="AnimatorParameterSetter.cs" t="Include" />
-                  <e p="AudioParameterSetter.cs" t="Include" />
-                  <e p="AudioVolumeSetter.cs" t="Include" />
-                  <e p="DamageDealer.cs" t="Include" />
-                  <e p="Editor" t="Include">
-                    <e p="FloatReferenceDrawer.cs" t="Include" />
-                  </e>
-                  <e p="FloatReference.cs" t="Include" />
-                  <e p="FloatVariable.cs" t="Include" />
-                  <e p="ImageFillSetter.cs" t="Include" />
-                  <e p="KeyboardMover.cs" t="Include" />
-                  <e p="SimpleUnitHealth.cs" t="Include" />
-                  <e p="SliderSetter.cs" t="Include" />
-                  <e p="StringVariable.cs" t="Include" />
-                  <e p="TextReplacer.cs" t="Include" />
-                  <e p="UnitHealth.cs" t="Include" />
-                  <e p="UnityEventRaiser.cs" t="Include" />
-                  <e p="VariableAudioTrigger.cs" t="Include" />
-                </e>
-              </e>
+            <e p="Interfaces" t="Include">
+              <e p="IAction.cs" t="Include" />
             </e>
-            <e p="Extentions" t="Include">
-              <e p="ClickRunEventBehaviour.cs" t="Include" />
+            <e p="Legacy" t="Include">
+              <e p="SendAndGetObject.cs" t="Include" />
             </e>
-            <e p="ProjectSettings" t="Include">
-              <e p="ProjectVersion.txt" t="Include" />
+            <e p="Objects" t="Include">
+              <e p="GenericObjects.cs" t="Include" />
+              <e p="GenericObjectsBase.cs" t="Include" />
             </e>
           </e>
         </e>
-        <e p="Plugins" t="Include">
-          <e p="Editor" t="Include">
-            <e p="JetBrains" t="Include">
-              <e p="Unity3DRider.cs" t="Include" />
+        <e p="Unite2017" t="Include">
+          <e p="Assets" t="Include">
+            <e p="Code" t="Include">
+              <e p="Elements" t="Include">
+                <e p="AttackElement.cs" t="Include" />
+                <e p="Elemental.cs" t="Include" />
+              </e>
+              <e p="Events" t="Include">
+                <e p="Editor" t="Include">
+                  <e p="EventEditor.cs" t="Include" />
+                </e>
+                <e p="GameEvent.cs" t="Include" />
+                <e p="GameEventListener.cs" t="Include" />
+              </e>
+              <e p="Sets" t="Include">
+                <e p="RuntimeSet.cs" t="Include" />
+                <e p="Thing.cs" t="Include" />
+                <e p="ThingDisabler.cs" t="Include" />
+                <e p="ThingMonitor.cs" t="Include" />
+                <e p="ThingRuntimeSet.cs" t="Include" />
+              </e>
+              <e p="Variables" t="Include">
+                <e p="AnimatorParameterSetter.cs" t="Include" />
+                <e p="AudioParameterSetter.cs" t="Include" />
+                <e p="AudioVolumeSetter.cs" t="Include" />
+                <e p="DamageDealer.cs" t="Include" />
+                <e p="Editor" t="Include">
+                  <e p="FloatReferenceDrawer.cs" t="Include" />
+                </e>
+                <e p="FloatReference.cs" t="Include" />
+                <e p="FloatVariable.cs" t="Include" />
+                <e p="ImageFillSetter.cs" t="Include" />
+                <e p="KeyboardMover.cs" t="Include" />
+                <e p="SimpleUnitHealth.cs" t="Include" />
+                <e p="SliderSetter.cs" t="Include" />
+                <e p="StringVariable.cs" t="Include" />
+                <e p="TextReplacer.cs" t="Include" />
+                <e p="UnitHealth.cs" t="Include" />
+                <e p="UnityEventRaiser.cs" t="Include" />
+                <e p="VariableAudioTrigger.cs" t="Include" />
+              </e>
             </e>
           </e>
+          <e p="Extentions" t="Include">
+            <e p="ClickRunEventBehaviour.cs" t="Include" />
+          </e>
+          <e p="ProjectSettings" t="Include">
+            <e p="ProjectVersion.txt" t="Include" />
+          </e>
         </e>
+      </e>
+      <e p="Assets\Collin Scripts" t="Include">
+        <e p="BulletController.cs" t="Include" />
+        <e p="CameraFollow.cs" t="Include" />
+        <e p="ChangePlayerHeight.cs" t="Include" />
+        <e p="MoveCharacter.cs" t="Include" />
+        <e p="SO_Projectile.cs" t="Include" />
+        <e p="SpawnSOProjectile.cs" t="Include" />
       </e>
       <e p="Library" t="ExcludeRecursive" />
       <e p="obj" t="ExcludeRecursive" />
@@ -125,6 +154,5 @@
       </e>
       <e p="TransformGame.sln" t="IncludeFlat" />
     </e>
-    <e p="$USER_HOME$/Library/Caches/Rider2017.3/resharper-host/local/Transient/ReSharperHost/v11/SolutionCaches/_TransformGame.-2070530632.00" t="ExcludeRecursive" />
   </component>
 </project>
