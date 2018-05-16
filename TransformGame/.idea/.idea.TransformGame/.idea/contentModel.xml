@@ -21,32 +21,44 @@
           </e>
         </e>
         <e p="CharacterScripts" t="Include">
-          <e p="AI" t="Include">
-            <e p="ActivateEnemyAI.cs" t="Include" />
-            <e p="EnemyActivateMeleeOnTrigger.cs" t="Include" />
-            <e p="EnemyAutoFire.cs" t="Include" />
-            <e p="EnemyController.cs" t="Include" />
-            <e p="EnemyDirectionChanger.cs" t="Include" />
-            <e p="EnemyFiringStateMachine.cs" t="Include" />
-            <e p="EnemyMelee_PlayerFXCall.cs" t="Include" />
-            <e p="EnemyMeleeOnAnimator.cs" t="Include" />
-            <e p="EnemyRetargetCall.cs" t="Include" />
-            <e p="EnemySpawnerDelegate.cs" t="Include" />
-            <e p="EnemyTargetDirector.cs" t="Include" />
-            <e p="EnemyWeaponFX.cs" t="Include" />
+          <e p="Legacy" t="Include">
+            <e p="AI" t="Include">
+              <e p="ActivateEnemyAI.cs" t="Include" />
+              <e p="EnemyActivateMeleeOnTrigger.cs" t="Include" />
+              <e p="EnemyAutoFire.cs" t="Include" />
+              <e p="EnemyController.cs" t="Include" />
+              <e p="EnemyDirectionChanger.cs" t="Include" />
+              <e p="EnemyFiringStateMachine.cs" t="Include" />
+              <e p="EnemyMelee_PlayerFXCall.cs" t="Include" />
+              <e p="EnemyMeleeOnAnimator.cs" t="Include" />
+              <e p="EnemyRetargetCall.cs" t="Include" />
+              <e p="EnemySpawnerDelegate.cs" t="Include" />
+              <e p="EnemyTargetDirector.cs" t="Include" />
+              <e p="EnemyWeaponFX.cs" t="Include" />
+            </e>
+            <e p="Inputs" t="Include">
+              <e p="MoveCharacterViaButtons.cs" t="Include" />
+              <e p="MoveViaKeys.cs" t="Include" />
+            </e>
+            <e p="PlayerCharacter" t="Include">
+              <e p="AnimateCharacter.cs" t="Include" />
+              <e p="CharacterHealthKiller.cs" t="Include" />
+              <e p="CharacterMovement.cs" t="Include" />
+              <e p="EndPlayer.cs" t="Include" />
+              <e p="FlipCharacter.cs" t="Include" />
+              <e p="MoveAndJumpCharacter.cs" t="Include" />
+              <e p="MoveInputs.cs" t="Include" />
+            </e>
           </e>
-          <e p="Inputs" t="Include">
-            <e p="MoveCharacterViaButtons.cs" t="Include" />
-            <e p="MoveViaKeys.cs" t="Include" />
-          </e>
-          <e p="PlayerCharacter" t="Include">
-            <e p="AnimateCharacter.cs" t="Include" />
-            <e p="CharacterHealthKiller.cs" t="Include" />
-            <e p="CharacterMovement.cs" t="Include" />
-            <e p="EndPlayer.cs" t="Include" />
-            <e p="FlipCharacter.cs" t="Include" />
-            <e p="MoveAndJumpCharacter.cs" t="Include" />
-            <e p="MoveInputs.cs" t="Include" />
+          <e p="Scripts" t="Include">
+            <e p="BoolInput.cs" t="Include" />
+            <e p="CharacterMove.cs" t="Include" />
+            <e p="FloatConstant.cs" t="Include" />
+            <e p="FloatInput.cs" t="Include" />
+            <e p="InputBase.cs" t="Include" />
+            <e p="MoveCharacter.cs" t="Include" />
+            <e p="MovePattern.cs" t="Include" />
+            <e p="MovePatternBase.cs" t="Include" />
           </e>
         </e>
         <e p="Generics" t="Include">
@@ -139,12 +151,19 @@
         </e>
       </e>
       <e p="Assets\Collin Scripts" t="Include">
-        <e p="BulletController.cs" t="Include" />
-        <e p="CameraFollow.cs" t="Include" />
-        <e p="ChangePlayerHeight.cs" t="Include" />
-        <e p="MoveCharacter.cs" t="Include" />
-        <e p="SO_Projectile.cs" t="Include" />
-        <e p="SpawnSOProjectile.cs" t="Include" />
+        <e p="Scripts" t="Include">
+          <e p="BulletController.cs" t="Include" />
+          <e p="CameraFollow.cs" t="Include" />
+          <e p="EventManager.cs" t="Include" />
+          <e p="Level Gen" t="Include">
+            <e p="LevelPieceController.cs" t="Include" />
+            <e p="ProceduralLevelGen.cs" t="Include" />
+          </e>
+          <e p="MovePatternUngroundedMovement.cs" t="Include" />
+          <e p="PlayerHeightController.cs" t="Include" />
+          <e p="SO_Projectile.cs" t="Include" />
+          <e p="SpawnSOProjectile.cs" t="Include" />
+        </e>
       </e>
       <e p="Library" t="ExcludeRecursive" />
       <e p="obj" t="ExcludeRecursive" />

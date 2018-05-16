@@ -14,4 +14,5 @@ MonoBehaviour:
   projectilePrefab: {fileID: 1564812202129822, guid: 700128a4c8be13445a24e5b7f74acbd5,
     type: 2}
   projectileLifetime: 5
-  cooldown: 1
+  cooldown: 0.1
+  parent: 0
