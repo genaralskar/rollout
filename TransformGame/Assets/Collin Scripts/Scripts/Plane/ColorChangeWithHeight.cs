@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEditor;
 using UnityEngine;
+using genaralskar;
 
 public class ColorChangeWithHeight : MonoBehaviour
 {
@@ -18,23 +19,23 @@ public class ColorChangeWithHeight : MonoBehaviour
 	// Use this for initialization
 	private void Start ()
 	{
-		EventManager.OnPlayerStatePlane += PlaneStateHandler;
-		EventManager.OnPlayerStateRobot += RobotStateHandler;
-		EventManager.OnPlayerStateCar += CarStateHandler;
+		// EventManager.OnPlayerStatePlane += PlaneStateHandler;
+		// EventManager.OnPlayerStateRobot += RobotStateHandler;
+		// EventManager.OnPlayerStateCar += CarStateHandler;
 	}
 
 
-	private void PlaneStateHandler()
+	public void PlaneStateHandler()
 	{
 		StartChangeColor(planeColor);
 	}
 
-	private void RobotStateHandler()
+	public void RobotStateHandler()
 	{
 		StartChangeColor(robotColor);
 	}
 
-	private void CarStateHandler()
+	public void CarStateHandler()
 	{
 		StartChangeColor(carColor);
 	}
