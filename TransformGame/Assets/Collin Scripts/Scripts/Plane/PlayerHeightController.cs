@@ -18,7 +18,7 @@ namespace genaralskar
 
 		private void Start()
 		{
-			EventManager.PlayerChangedHeight += ChangeState;
+			EventManager.OnPlayerChangedHeight += ChangeState;
 		}
 
 		public void ChangeState(EventManager.HeightStates state)
@@ -53,7 +53,7 @@ namespace genaralskar
 				transform.position = newPos;
 				timer += Time.deltaTime;
 				
-				print("Moving playa");
+			//	print("Moving playa");
 				yield return new WaitForEndOfFrame();
 			}
 

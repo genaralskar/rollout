@@ -19,6 +19,7 @@ namespace genaralskar
     			
 			    GameObject tempProjectile = Instantiate(projectile.ProjectilePrefab);
 			    tempProjectile.transform.position = this.transform.position;
+			    tempProjectile.transform.rotation = this.transform.rotation;
 			    if (projectile.Parent)
 			    {
 				    tempProjectile.transform.SetParent(this.transform);
