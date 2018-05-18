@@ -8,7 +8,9 @@ namespace genaralskar
 	public class SpawnSOProjectile : MonoBehaviour
     {
     	public SO_Projectile projectile;
-    	private bool canSpawn = true;
+    	private bool canSpawn = true; //used for cooldown
+
+	    public int layerIndex = 1; //find a way to use layermasks and invert it
     
     	public void Spawn()
     	{
@@ -18,6 +20,7 @@ namespace genaralskar
     			StartCoroutine(SpawnTimer());
     			
 			    GameObject tempProjectile = Instantiate(projectile.ProjectilePrefab);
+			    tempProjectile.layer = layerIndex;
 			    tempProjectile.transform.position = this.transform.position;
 			    tempProjectile.transform.rotation = this.transform.rotation;
 			    if (projectile.Parent)

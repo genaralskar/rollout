@@ -15,7 +15,7 @@ MonoBehaviour:
   gravity: 0
   InputX: {fileID: 11400000, guid: 1e0d8978eaf8af64badf3b5ca2419e26, type: 2}
   InputY: {fileID: 11400000, guid: cc704c685359c8b44bb6d34b2a432f1a, type: 2}
-  InputZ: {fileID: 11400000, guid: 459323976d4b74bc395c6219e5858397, type: 2}
+  InputZ: {fileID: 11400000, guid: 836ee7dd53cab834abaf896c29b944ef, type: 2}
   InputRotateX: {fileID: 11400000, guid: cc704c685359c8b44bb6d34b2a432f1a, type: 2}
   InputRotateY: {fileID: 11400000, guid: cc704c685359c8b44bb6d34b2a432f1a, type: 2}
   InputRotateZ: {fileID: 11400000, guid: cc704c685359c8b44bb6d34b2a432f1a, type: 2}

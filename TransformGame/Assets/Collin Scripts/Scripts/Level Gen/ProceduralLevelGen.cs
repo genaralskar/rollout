@@ -44,10 +44,10 @@ namespace genaralskar
 		private void SpawnNewPiece(Transform position, float offset)
 		{
 			int randomIndex = Random.Range(0, levelPieces.Length); //get random index
-			print(randomIndex);
+		//	print(randomIndex);
 			
 			GameObject newPiece = Instantiate(levelPieces[randomIndex]); //spawn piece from that random index
-			print(offset + " : " + newPiece.GetComponent<LevelPieceController>().Offset);
+		//	print(offset + " : " + newPiece.GetComponent<LevelPieceController>().Offset);
 
 			newPiece.transform.position = spawnedPieces.Last().transform.position +
 			                              (Vector3.forward * 
