@@ -55,7 +55,7 @@ public class ColorChangeWithHeight : MonoBehaviour
 		Color newColor;
 		while (fadeProgress < 1)
 		{
-			print(fadeProgress);
+		//	print(fadeProgress);
 			fadeProgress = fadeTimer / fadeTime;
 			fadeTimer += Time.deltaTime;
 			playerMat.color = Color.Lerp(playerMat.color, color2, fadeProgress);
