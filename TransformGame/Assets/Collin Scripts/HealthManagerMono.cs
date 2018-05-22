@@ -5,13 +5,12 @@ using UnityEngine;
 
 public class HealthManagerMono : MonoBehaviour
 {
-	public FloatConstant maxHealth;
 	
 	public HealthManager manager;
 	
 	// Use this for initialization
-	private void Start()
+	private void OnEnable()
 	{
-		manager.SetHealth(maxHealth.FloatValue);
+		manager.SetHealth(manager.maxHealth.FloatValue);
 	}
 }

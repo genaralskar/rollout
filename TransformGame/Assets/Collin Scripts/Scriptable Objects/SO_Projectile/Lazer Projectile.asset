@@ -13,6 +13,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   projectilePrefab: {fileID: 1217617503432662, guid: 4ab2536d3c1bcb34295e3bbe2ee4c899,
     type: 2}
+  pooledObject: {fileID: 11400000, guid: 7763e2829d5682b4988cf4c862e82192, type: 2}
   projectileLifetime: 2
   cooldown: 5
   parent: 1

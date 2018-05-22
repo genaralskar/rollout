@@ -57,10 +57,12 @@
             <e p="CharacterMove.cs" t="Include" />
             <e p="FloatConstant.cs" t="Include" />
             <e p="FloatInput.cs" t="Include" />
+            <e p="FloatVariable.cs" t="Include" />
             <e p="InputBase.cs" t="Include" />
-            <e p="MoveCharacter.cs" t="Include" />
             <e p="MovePattern.cs" t="Include" />
             <e p="MovePatternBase.cs" t="Include" />
+            <e p="Player.cs" t="Include" />
+            <e p="PlayerMoveBehaviour.cs" t="Include" />
           </e>
         </e>
         <e p="Generics" t="Include">
@@ -153,10 +155,14 @@
         </e>
       </e>
       <e p="Assets\Collin Scripts" t="Include">
+        <e p="EnemyHealthManagerMono.cs" t="Include" />
         <e p="HealthManager.cs" t="Include" />
         <e p="HealthManagerMono.cs" t="Include" />
         <e p="Hitbox.cs" t="Include" />
         <e p="Hurtbox.cs" t="Include" />
+        <e p="IPooledObject.cs" t="Include" />
+        <e p="ObjectPooler.cs" t="Include" />
+        <e p="ProjectileController.cs" t="Include" />
         <e p="Scriptable Objects" t="Include">
           <e p="SO Scripts" t="Include">
             <e p="SO_CurrentPlayerState.cs" t="Include" />
@@ -177,12 +183,17 @@
             <e p="ColorChangeWithHeight.cs" t="Include" />
             <e p="PlayerHeightController.cs" t="Include" />
           </e>
+          <e p="Pool.cs" t="Include" />
+          <e p="RaiseEventOnDrag.cs" t="Include" />
+          <e p="RaiseEventOnPointerUp.cs" t="Include" />
+          <e p="RotateToInput.cs" t="Include" />
           <e p="SpawnSOProjectile.cs" t="Include" />
           <e p="test" t="Include">
             <e p="SO_SubTest.cs" t="Include" />
             <e p="SubscribeToSO.cs" t="Include" />
           </e>
           <e p="TrackObjectXYZ.cs" t="Include" />
+          <e p="VirtualJoystick.cs" t="Include" />
         </e>
         <e p="UIHealth.cs" t="Include" />
       </e>

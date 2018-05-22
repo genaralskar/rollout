@@ -10,10 +10,10 @@ namespace genaralskar
 	
 		private void OnTriggerEnter(Collider other)
 		{
-			print("Triggered");
+		//	print("Triggered");
 			Hurtbox otherManager = other.gameObject.GetComponent<Hurtbox>();
 			otherManager.healthManager.AddHealth(-damage.FloatValue);
-			print("damaged object");
+		//	print("damaged object");
 		}
 	}
 }

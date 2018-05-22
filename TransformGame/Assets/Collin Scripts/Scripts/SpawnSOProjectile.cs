@@ -18,17 +18,15 @@ namespace genaralskar
     		{
     			StopAllCoroutines();
     			StartCoroutine(SpawnTimer());
-    			
-			    GameObject tempProjectile = Instantiate(projectile.ProjectilePrefab);
-			    tempProjectile.layer = layerIndex;
-			    tempProjectile.transform.position = this.transform.position;
-			    tempProjectile.transform.rotation = this.transform.rotation;
+
+			    //get from pool, set layer index, if parent, set parent
+			    GameObject tempObj = projectile.PooledObject.GetObjectFromPool(this.transform.position, this.transform.rotation, layerIndex);
+			    tempObj.GetComponent<ProjectileController>().LifetimeDisable(projectile.ProjectileLifetime);
 			    if (projectile.Parent)
 			    {
-				    tempProjectile.transform.SetParent(this.transform);
+				    tempObj.transform.SetParent(transform);
 			    }
-                Destroy(tempProjectile, projectile.ProjectileLifetime);
-    		}
+		    }
     	}
     
     	private IEnumerator SpawnTimer()

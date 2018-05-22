@@ -13,6 +13,13 @@ namespace genaralskar
 		{
 			get { return projectilePrefab; }
 		}
+
+		[SerializeField]
+		private Pool pooledObject;
+		public Pool PooledObject
+		{
+			get { return pooledObject; }
+		}
 	
 		[SerializeField]
 		private float projectileLifetime = 5;

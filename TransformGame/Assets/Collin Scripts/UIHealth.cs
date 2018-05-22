@@ -8,12 +8,12 @@ public class UIHealth : MonoBehaviour
 {
 
 	[SerializeField] private Image healthBar;
-	[SerializeField] private HealthManager healthManager;
+	public HealthManager healthManager;
 
 	private void Start()
 	{
 		healthManager.healthUpdate += UpdateUI;
-		print("assigned method");
+	//	print("assigned method");
 	}
 
 	private void UpdateUI(float currentHealth, float normalizedHealth)

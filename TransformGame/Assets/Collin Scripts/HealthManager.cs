@@ -24,7 +24,7 @@ namespace genaralskar
 	
 		public void AddHealth(float amount)
 		{
-			Debug.Log("Adding " + amount + " Health");
+		//	Debug.Log("Adding " + amount + " Health");
 			currentHealth.FloatValue += amount;
 			Debug.Log("CurrentHealth = " + currentHealth.FloatValue);
 			if (currentHealth.FloatValue > maxHealth.FloatValue)
@@ -42,7 +42,7 @@ namespace genaralskar
 			
 			
 			healthUpdate(currentHealth.FloatValue, HealthNormalized);
-			Debug.Log("Sending Health Update Action");
+		//	Debug.Log("Sending Health Update Action");
 			
 		}
 	
@@ -64,7 +64,7 @@ namespace genaralskar
 			}
 			
 			healthUpdate(currentHealth.FloatValue, HealthNormalized);
-			Debug.Log("Sending Health Update Action");
+		//	Debug.Log("Sending Health Update Action");
 		}
 	}
 }
