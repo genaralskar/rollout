@@ -42,7 +42,7 @@ namespace genaralskar
 		{
 			GameObject objectToSpawn = objectPool.Dequeue();
 			objectToSpawn.transform.position = position;
-			objectToSpawn.transform.rotation = rotation;
+			objectToSpawn.transform.rotation = rotation * objectToSpawn.transform.rotation;
 			objectToSpawn.layer = layerIndex;
 			objectToSpawn.SetActive(true);
 			

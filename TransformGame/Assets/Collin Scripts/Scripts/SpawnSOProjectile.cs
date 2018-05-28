@@ -13,7 +13,7 @@ namespace genaralskar
 	    public int layerIndex = 1; //find a way to use layermasks and invert it
     
     	public void Spawn()
-    	{
+	    {
     		if (canSpawn)
     		{
     			StopAllCoroutines();
@@ -26,6 +26,10 @@ namespace genaralskar
 			    {
 				    tempObj.transform.SetParent(transform);
 			    }
+				else
+				{
+					tempObj.transform.SetParent(null);
+				}
 		    }
     	}
     

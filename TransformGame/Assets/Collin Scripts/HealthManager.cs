@@ -27,19 +27,13 @@ namespace genaralskar
 		//	Debug.Log("Adding " + amount + " Health");
 			currentHealth.FloatValue += amount;
 			Debug.Log("CurrentHealth = " + currentHealth.FloatValue);
-			if (currentHealth.FloatValue > maxHealth.FloatValue)
-			{
-				currentHealth.FloatValue = maxHealth.FloatValue;
-			}
+			currentHealth.FloatValue = Mathf.Clamp(currentHealth.FloatValue, 0, maxHealth.FloatValue);
 	
 			if (currentHealth.FloatValue <= 0)
 			{
-				currentHealth.FloatValue = 0;
-				
-				if(healthAtZero != null)
-					healthAtZero();
+				// currentHealth.FloatValue = 0;
+				healthAtZero();
 			}
-			
 			
 			healthUpdate(currentHealth.FloatValue, HealthNormalized);
 		//	Debug.Log("Sending Health Update Action");

@@ -7,11 +7,9 @@ namespace genaralskar
 	[CreateAssetMenu(menuName = "genaralskar/Projectile")]
 	public class SO_Projectile : ScriptableObject
 	{
-		[SerializeField]
-		private GameObject projectilePrefab;
 		public GameObject ProjectilePrefab
 		{
-			get { return projectilePrefab; }
+			get { return pooledObject.prefab; }
 		}
 
 		[SerializeField]

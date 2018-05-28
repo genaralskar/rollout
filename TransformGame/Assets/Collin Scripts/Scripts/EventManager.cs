@@ -37,7 +37,7 @@ namespace genaralskar
 			gameEvents[3].Raise(); //calls PlayerChangeState event
 		}
 
-		private void RaiseEventByName(string name)
+		public void RaiseEventByName(string name)
 		{
 			foreach(GameEvent i in gameEvents)
 			{
