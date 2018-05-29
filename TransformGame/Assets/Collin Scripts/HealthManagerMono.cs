@@ -11,6 +11,6 @@ public class HealthManagerMono : MonoBehaviour
 	// Use this for initialization
 	private void OnEnable()
 	{
-		manager.SetHealth(manager.maxHealth.FloatValue);
+		manager.SetHealth((float)1);
 	}
 }

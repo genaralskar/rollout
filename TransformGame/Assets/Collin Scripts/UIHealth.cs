@@ -16,10 +16,10 @@ public class UIHealth : MonoBehaviour
 	//	print("assigned method");
 	}
 
-	private void UpdateUI(float currentHealth, float normalizedHealth)
+	private void UpdateUI(float currentHealth)
 	{
-		healthBar.fillAmount = normalizedHealth;
-		print("fillbar updating, " + normalizedHealth);
+		healthBar.fillAmount = currentHealth;
+		print("fillbar updating, " + currentHealth);
 	}
 	
 }

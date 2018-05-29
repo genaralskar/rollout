@@ -11,14 +11,11 @@ public class EnemyHealthManagerMono : HealthManagerMono
 	
 	// Use this for initialization
 	void Awake ()
-	{
-		FloatConstant tempMaxHealth = manager.maxHealth;
-		
+	{	
 		FloatConstant tempCurrentHealth = ScriptableObject.CreateInstance<FloatConstant>();
 		tempCurrentHealth.FloatValue = manager.currentHealth.FloatValue;
 		
 		manager = ScriptableObject.CreateInstance<HealthManager>();
-		manager.maxHealth = tempMaxHealth;
 		manager.currentHealth = tempCurrentHealth;
 
 		healthUI.healthManager = manager;
@@ -32,8 +29,9 @@ public class EnemyHealthManagerMono : HealthManagerMono
 		}
 	}
 
-	private void HealthUpdateHandler(float currentHealth, float normalizedHealth)
+	private void HealthUpdateHandler(float currentHealth)
 	{
+		
 	}
 
 	private void HealthAtZeroHandler()

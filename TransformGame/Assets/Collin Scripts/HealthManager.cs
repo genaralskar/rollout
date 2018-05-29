@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.Runtime.InteropServices;
 using UnityEngine;
 using UnityEngine.Events;
 
@@ -8,18 +9,9 @@ namespace genaralskar
 	[CreateAssetMenu(menuName = "genaralskar/Health Manager")]
 	public class HealthManager : ScriptableObject
 	{
-		
-		//maybe change health to ints instead of floats?
-	
-		public FloatConstant maxHealth;
 		public FloatConstant currentHealth;
-		
-		public float HealthNormalized
-		{
-			get { return  currentHealth.FloatValue / maxHealth.FloatValue; }
-		}
 	
-		public UnityAction<float, float> healthUpdate = delegate {  };
+		public UnityAction<float> healthUpdate = delegate {  };
 		public UnityAction healthAtZero = delegate {  };
 	
 		public void AddHealth(float amount)
@@ -27,38 +19,41 @@ namespace genaralskar
 		//	Debug.Log("Adding " + amount + " Health");
 			currentHealth.FloatValue += amount;
 			Debug.Log("CurrentHealth = " + currentHealth.FloatValue);
-			currentHealth.FloatValue = Mathf.Clamp(currentHealth.FloatValue, 0, maxHealth.FloatValue);
+			currentHealth.FloatValue = Mathf.Clamp(currentHealth.FloatValue, 0, 1);
 	
-			if (currentHealth.FloatValue <= 0)
+			if (currentHealth.FloatValue < .1f)
 			{
-				// currentHealth.FloatValue = 0;
 				healthAtZero();
 			}
 			
-			healthUpdate(currentHealth.FloatValue, HealthNormalized);
-		//	Debug.Log("Sending Health Update Action");
-			
+			healthUpdate(currentHealth.FloatValue);
+		//	Debug.Log("Sending Health Update Action");	
 		}
 	
 		public void SetHealth(float amount)
 		{
 			currentHealth.FloatValue = amount;
+			currentHealth.FloatValue = Mathf.Clamp(currentHealth.FloatValue, 0, 1);
 			
-			if (currentHealth.FloatValue > maxHealth.FloatValue)
+			if (currentHealth.FloatValue < .1f)
 			{
-				currentHealth.FloatValue = maxHealth.FloatValue;
-			}
-	
-			if (currentHealth.FloatValue <= 0)
-			{
+				Debug.Log("health enough to kill");
 				currentHealth.FloatValue = 0;
-				
-				if(healthAtZero != null)
-					healthAtZero();
+				healthAtZero();
 			}
 			
-			healthUpdate(currentHealth.FloatValue, HealthNormalized);
+			healthUpdate(currentHealth.FloatValue);
 		//	Debug.Log("Sending Health Update Action");
+		}
+		
+		public void AddHealth(int amount)
+		{
+			AddHealth((float)amount / 10);
+		}
+		
+		public void SetHealth(int amount)
+		{
+			SetHealth((float)amount / 10);
 		}
 	}
 }

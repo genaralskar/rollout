@@ -6,44 +6,36 @@ public class SwapParts : MonoBehaviour {
 
 	
 	public RobotBuilder builder;
-//	public List<RobotPartHead> heads;
-	private int currentHead = 0;
-//	public List<RobotPartTorso> torsos;
-	private int currentTorso = 0;
-//	public List<RobotPartArms> arms;
-	private int currentArms = 0;
-//	public List<RobotPartLegs> legs;
-	private int currentLegs = 0;
-
+	[Tooltip("List of parts the player can pick from")]
 	public RobotPartsList parts;
-
-
-
-//	public Transform headSnapPoint;
-//	public Transform torsoSnapPoint;
-//	public Transform leftArmSnapPoint;
-//	public Transform rightArmSnapPoint;
-//	public Transform leftLegSnapPoint;
-//	public Transform rightLegSnapPoint;
-
-	// private GameObject currentHeadObj;
-	// private GameObject currentTorsoObj;
-	// private GameObject currentLeftArmObj;
-	// private GameObject currentRightArmObj;
-	// private GameObject currentLeftLegObj;
-	// private GameObject currentRightLegObj;
+	
+	private int currentHead = 0;
+	private int currentTorso = 0;
+	private int currentArms = 0;
+	private int currentLegs = 0;
 
 	private void OnEnable()
 	{
-		UpdateAll();
+		
+		//find index of current robot parts in parts list
+		//set current robot parts to that int
+		currentHead = parts.FindIndexOfPart(builder.robot.Head);
+		currentTorso = parts.FindIndexOfPart(builder.robot.Torso);
+		currentArms = parts.FindIndexOfPart(builder.robot.Arms);
+		currentLegs = parts.FindIndexOfPart(builder.robot.Legs);
+
 	}
+	
 
 	public void NextHead()
 	{
 		currentHead++;
 		if(currentHead > parts.Heads.Count - 1)
 			currentHead = 0;
+		
+		print("building head");
 		builder.SwapHead(parts.Heads[currentHead]);
+		print("buildt head");
 		//UpdateHead();
 	}
 
@@ -75,7 +67,9 @@ public class SwapParts : MonoBehaviour {
 		currentTorso++;
 		if(currentTorso > parts.Torsos.Count - 1)
 			currentTorso = 0;
-		builder.SwapTorso(parts.Torsos[currentHead]);
+		
+		print("building torso");
+		builder.SwapTorso(parts.Torsos[currentTorso]);
 	}
 
 	public void PreviousTorso()
@@ -83,7 +77,7 @@ public class SwapParts : MonoBehaviour {
 		currentTorso--;
 		if(currentTorso < 0)
 			currentTorso = parts.Torsos.Count - 1;
-		builder.SwapTorso(parts.Torsos[currentHead]);
+		builder.SwapTorso(parts.Torsos[currentTorso]);
 	}
 
 	public void NextArms()
@@ -91,7 +85,7 @@ public class SwapParts : MonoBehaviour {
 		currentArms++;
 		if(currentArms > parts.Arms.Count - 1)
 			currentArms = 0;
-		builder.SwapArms(parts.Arms[currentHead]);
+		builder.SwapArms(parts.Arms[currentArms]);
 	}
 
 	public void PreviousArms()
@@ -99,7 +93,7 @@ public class SwapParts : MonoBehaviour {
 		currentArms--;
 		if(currentArms < 0)
 			currentArms = parts.Arms.Count - 1;
-		builder.SwapArms(parts.Arms[currentHead]);
+		builder.SwapArms(parts.Arms[currentArms]);
 	}
 
 	public void NextLegs()
@@ -107,7 +101,7 @@ public class SwapParts : MonoBehaviour {
 		currentLegs++;
 		if(currentLegs > parts.Legs.Count - 1)
 			currentLegs = 0;
-		builder.SwapLegs(parts.Legs[currentHead]);
+		builder.SwapLegs(parts.Legs[currentLegs]);
 	}
 
 	public void PreviousLegs()
@@ -115,39 +109,10 @@ public class SwapParts : MonoBehaviour {
 		currentLegs++;
 		if(currentLegs > 0)
 			currentLegs = parts.Legs.Count - 1;
-		builder.SwapLegs(parts.Legs[currentHead]);
+		builder.SwapLegs(parts.Legs[currentLegs]);
 	}
 
 
-	public void UpdateAll()
-	{
-		UpdateHead();
-		UpdateTorso();
-		UpdateArms();
-		UpdateLegs();
-	}
-
-	public void UpdateHead()
-	{
-		//snapPoints.SwapHead(heads[currentHead]);
-		// constructor.Head = heads[currentHead];
-		// constructor.BuildRobot();
-	}
-
-	public void UpdateTorso()
-	{
-		//constructor.Torso = torsos[currentTorso];
-		//constructor.UpdateTorso(torsoSnapPoint);
-	}
-
-	public void UpdateArms()
-	{
-
-	}
-
-	public void UpdateLegs()
-	{
-
-	}
+	
 	
 }

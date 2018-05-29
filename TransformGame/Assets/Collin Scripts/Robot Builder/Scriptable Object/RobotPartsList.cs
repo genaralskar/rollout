@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.Runtime.InteropServices;
 using UnityEngine;
 
 [CreateAssetMenu(menuName = "genaralskar/Robot Parts List")]
@@ -36,5 +37,43 @@ public class RobotPartsList : ScriptableObject {
 	public void AddLegs(RobotPartLegs newLegs)
 	{
 		Legs.Add(newLegs);
+	}
+
+	public int FindIndexOfPart(RobotPartBase part)
+	{
+		foreach (var p in Heads)
+		{
+			if (p == part)
+			{
+				return Heads.IndexOf(p);
+			}
+		}
+		
+		foreach (var p in Torsos)
+		{
+			if (p == part)
+			{
+				return Torsos.IndexOf(p);
+			}
+		}
+		
+		foreach (var p in Arms)
+		{
+			if (p == part)
+			{
+				return Arms.IndexOf(p);
+			}
+		}
+		
+		foreach (var p in Legs)
+		{
+			if (p == part)
+			{
+				return Legs.IndexOf(p);
+			}
+		}
+		
+		Debug.Log("Item " + part + " not found in " + this + ". Reseting to default");
+		return 0;
 	}
 }

@@ -100,6 +100,8 @@
               <e p="RunGame.cs" t="Include" />
               <e p="StartGame.cs" t="Include" />
             </e>
+            <e p="Health.cs" t="Include" />
+            <e p="HealthBehaviour.cs" t="Include" />
             <e p="Interfaces" t="Include">
               <e p="IAction.cs" t="Include" />
             </e>
@@ -224,6 +226,7 @@
           </e>
           <e p="TrackObjectXYZ.cs" t="Include" />
           <e p="VirtualJoystick.cs" t="Include" />
+          <e p="WeaponManager.cs" t="Include" />
         </e>
         <e p="UIHealth.cs" t="Include" />
       </e>
