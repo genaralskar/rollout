@@ -17,6 +17,6 @@ public class RobotPartLegs : RobotPartBase
 		lLeg.transform.SetParent(null);
 		rLeg.transform.SetParent(null);
 		Destroy(newObj);
-        robot.UpdateLegs(lLeg, rLeg);
+        
     }
 }

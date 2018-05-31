@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.Runtime.InteropServices;
 using System.Security.Cryptography;
 using UnityEngine;
 
@@ -11,18 +12,15 @@ public class Robot : ScriptableObject
 	public RobotPartArms Arms;
 	public RobotPartLegs Legs;
 
+	public List<RobotPartBase> robotParts;
+
 	public RobotBuilder builder;
+	public RobotMakerV2 robotMaker;
 
 	public float weight;
 	public float armor;
-
-
-	private GameObject currentHeadObj;
-	private GameObject currentTorsoObj;
-	private GameObject currentLeftArmObj;
-	private GameObject currentRightArmObj;
-	private GameObject currentLeftLegObj;
-	private GameObject currentRightLegObj;
+	
+	private List<CurrentGameObject> currentParts = new List<CurrentGameObject>(); //keeps track of currently instantiated parts
 
 	public void BuildRobot()
 	{
@@ -30,64 +28,67 @@ public class Robot : ScriptableObject
 		{
 			weight = 0;
 			armor = 0;
-		
-			Head.Construct(this, builder.head);
-			Torso.Construct(this, builder.torso);
-			Arms.Construct(this, builder.lArm);
-			Legs.Construct(this, builder.lLeg);
+
+			foreach (var part in robotParts)
+			{
+				part.Construct(this, robotMaker.SnapPointOfPartType(part.partType));
+			}
 		}
 	}
 
-	public void UpdateHead(GameObject newHead)
+	public void UpdatePart(GameObject newPart, PartType partType)
 	{
-		Destroy(currentHeadObj);
-		
-		currentHeadObj = newHead;
-	//	Debug.Log("new head assigned");
-			
+		foreach (var part in currentParts)
+		{
+			if (part.partType == partType) //if there is a part with the same part type
+			{
+				Debug.Log("Replacing " + part.currentObject + " with " + newPart);
+				Destroy(part.currentObject);
+				part.currentObject = newPart;
+				Debug.Log("New part is " + part.currentObject);
+				return;
+			}
+		}
+		Debug.Log("Adding new entry of " + newPart + " to CurrentGameObjects");
+		currentParts.Add(new CurrentGameObject(newPart, partType)); //if no matching part type, add to list of current parts
+	}
+
+	public void SwapPart(RobotPartBase newPart)
+	{
+		for (int i = 0; i < robotParts.Count; i++)
+		{
+			if (robotParts[i].partType == newPart.partType)
+			{
+				robotParts[i] = newPart;
+				robotParts[i].Construct(this, robotMaker.SnapPointOfPartType(newPart.partType));
+			}
+		}
+	}
+
+	public RobotPartBase FindPartOfType(PartType type)
+	{
+		foreach (var part in robotParts)
+		{
+			if (part.partType == type)
+			{
+				return part;
+			}
+		}
+
+		Debug.Log("No part of type " + type + " found");
+		return null;
 	}
 	
-	public void UpdateTorso(GameObject newTorso)
-	{
-		Destroy(currentTorsoObj);
-		currentTorsoObj = newTorso;
-	}
+}
 
-	public void UpdateLegs(GameObject newLLeg, GameObject newRLeg)
-	{
-		Destroy(currentLeftLegObj);
-		Destroy(currentRightLegObj);
-		
-		Transform lLegT = newLLeg.transform;
-		lLegT.SetParent(builder.lLeg);
-		lLegT.localPosition = Vector3.zero;
-		lLegT.localRotation = Quaternion.identity;
-		
-		Transform rLegT = newRLeg.transform;
-		rLegT.SetParent(builder.rLeg);
-		rLegT.localPosition = Vector3.zero;
-		rLegT.localRotation = Quaternion.identity;
-		
-		currentLeftLegObj = newLLeg;
-		currentRightLegObj = newRLeg;
-	}
+public class CurrentGameObject
+{
+	public GameObject currentObject;
+	public PartType partType;
 
-	public void UpdateArms(GameObject newLArm, GameObject newRArm)
+	public CurrentGameObject(GameObject obj, PartType part)
 	{
-		Destroy(currentLeftArmObj);
-		Destroy(currentRightArmObj);
-		
-		Transform lArmT = newLArm.transform;
-		lArmT.SetParent(builder.lArm);
-		lArmT.localPosition = Vector3.zero;
-		lArmT.localRotation = Quaternion.identity;
-		
-		Transform rArmT = newRArm.transform;
-		rArmT.SetParent(builder.rArm);
-		rArmT.localPosition = Vector3.zero;
-		rArmT.localRotation = Quaternion.identity;
-		
-		currentLeftArmObj = newLArm;
-		currentRightArmObj = newRArm;
+		this.currentObject = obj;
+		this.partType = part;
 	}
 }

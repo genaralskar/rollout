@@ -61,8 +61,11 @@
             <e p="InputBase.cs" t="Include" />
             <e p="MovePattern.cs" t="Include" />
             <e p="MovePatternBase.cs" t="Include" />
+            <e p="MovePatternNotGrounded.cs" t="Include" />
+            <e p="MovePatternWithIsGrounded.cs" t="Include" />
             <e p="Player.cs" t="Include" />
             <e p="PlayerMoveBehaviour.cs" t="Include" />
+            <e p="PlayerStateBehaviour.cs" t="Include" />
           </e>
         </e>
         <e p="Generics" t="Include">
@@ -178,9 +181,12 @@
         <e p="ObjectPooler.cs" t="Include" />
         <e p="ProjectileController.cs" t="Include" />
         <e p="Robot Builder" t="Include">
+          <e p="AddRobotToPartsList.cs" t="Include" />
           <e p="Scriptable Object" t="Include">
+            <e p="PartType.cs" t="Include" />
             <e p="Robot.cs" t="Include" />
             <e p="RobotBuilder.cs" t="Include" />
+            <e p="RobotMakerV2.cs" t="Include" />
             <e p="RobotPartArms.cs" t="Include" />
             <e p="RobotPartBase.cs" t="Include" />
             <e p="RobotPartHead.cs" t="Include" />

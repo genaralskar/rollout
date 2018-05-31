@@ -49,13 +49,5 @@ public class RobotBuilder : MonoBehaviour {
 	public void ConstructRobot()
 	{
 		robot.BuildRobot();
-		
-//		robot.weight = 0;
-//		robot.armor = 0;
-//		
-//		robot.Head.Construct(robot, head);
-//		robot.Torso.Construct(robot, torso);
-//		robot.Arms.Construct(robot, lArm);
-//		robot.Legs.Construct(robot, lLeg);
 	}
 }

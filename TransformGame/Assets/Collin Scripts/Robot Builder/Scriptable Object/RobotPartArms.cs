@@ -17,6 +17,6 @@ public class RobotPartArms : RobotPartBase
         lArm.transform.SetParent(null);
         rArm.transform.SetParent(null);
         Destroy(newObj);
-        robot.UpdateArms(lArm, rArm);
+        
     }
 }

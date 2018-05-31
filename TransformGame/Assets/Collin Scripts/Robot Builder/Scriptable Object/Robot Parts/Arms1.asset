@@ -14,3 +14,4 @@ MonoBehaviour:
   part: {fileID: 1607043463241298, guid: 73c6606cc5bd3bc4ca2016acb8f689ab, type: 2}
   weight: 1
   armor: 1
+  partType: {fileID: 11400000, guid: 602b05d1dba464846a98ff92f97e756c, type: 2}

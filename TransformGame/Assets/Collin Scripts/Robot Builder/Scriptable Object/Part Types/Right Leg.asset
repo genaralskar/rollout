@@ -8,9 +8,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3bcb04adf8b126a49917ae8cc3b9e572, type: 3}
-  m_Name: Torso 1
+  m_Script: {fileID: 11500000, guid: 0733134709ceb13429026da3e2e04989, type: 3}
+  m_Name: Right Leg
   m_EditorClassIdentifier: 
-  part: {fileID: 1000972742424082, guid: 8bb63f748a92c924b9df7503ea5507f1, type: 2}
-  weight: 1
-  armor: 1

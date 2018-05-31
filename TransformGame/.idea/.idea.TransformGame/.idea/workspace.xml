@@ -11,27 +11,27 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="SwapParts.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SwapParts.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Collin Scripts/Robot Builder/Scriptable Object/SwapParts.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="8" column="55" lean-forward="true" selection-start-line="8" selection-start-column="55" selection-end-line="8" selection-end-column="55" />
+            <state relative-caret-position="990">
+              <caret line="68" column="35" selection-start-line="68" selection-start-column="35" selection-end-line="68" selection-end-column="35" />
               <folding>
-                <marker date="1527624288065" expanded="false" signature="6:78" ph="..." />
-                <marker date="1527624288065" expanded="true" signature="119:2397" ph="{...}" />
-                <marker date="1527624288065" expanded="true" signature="385:725" ph="{...}" />
-                <marker date="1527624288065" expanded="true" signature="394:483" ph="/* find index of current robot parts in parts list ... */" />
-                <marker date="1527624288065" expanded="true" signature="752:954" ph="{...}" />
-                <marker date="1527624288065" expanded="true" signature="1002:1225" ph="{...}" />
-                <marker date="1527624288065" expanded="true" signature="1053:1101" ph="{...}" />
-                <marker date="1527624288065" expanded="true" signature="1148:1176" ph="{...}" />
-                <marker date="1527624288065" expanded="true" signature="1254:1403" ph="{...}" />
-                <marker date="1527624288065" expanded="true" signature="1429:1597" ph="{...}" />
-                <marker date="1527624288065" expanded="true" signature="1627:1765" ph="{...}" />
-                <marker date="1527624288065" expanded="true" signature="1790:1919" ph="{...}" />
-                <marker date="1527624288065" expanded="true" signature="1948:2077" ph="{...}" />
-                <marker date="1527624288065" expanded="true" signature="2102:2231" ph="{...}" />
-                <marker date="1527624288065" expanded="true" signature="2260:2389" ph="{...}" />
+                <marker date="1527709571133" expanded="false" signature="6:78" ph="..." />
+                <marker date="1527709571133" expanded="true" signature="119:3710" ph="{...}" />
+                <marker date="1527709571133" expanded="true" signature="511:909" ph="{...}" />
+                <marker date="1527709571133" expanded="true" signature="520:855" ph="/* find index of current robot parts in parts list ... */" />
+                <marker date="1527709571133" expanded="true" signature="944:1303" ph="{...}" />
+                <marker date="1527709571133" expanded="true" signature="974:1032" ph="{...}" />
+                <marker date="1527709571133" expanded="true" signature="1089:1300" ph="{...}" />
+                <marker date="1527709571133" expanded="true" signature="1141:1216" ph="{...}" />
+                <marker date="1527709571133" expanded="true" signature="1224:1296" ph="{...}" />
+                <marker date="1527709571133" expanded="true" signature="1345:1553" ph="{...}" />
+                <marker date="1527709571133" expanded="true" signature="1439:1477" ph="{...}" />
+                <marker date="1527709571133" expanded="true" signature="1599:1807" ph="{...}" />
+                <marker date="1527709571133" expanded="true" signature="1662:1731" ph="{...}" />
+                <marker date="1527709571133" expanded="true" signature="1809:3707" ph="/* public void NextHead() ... */" />
+                <marker date="1527709571133" expanded="true" signature="3841:3875" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -40,108 +40,129 @@
       <file leaf-file-name="RobotPartsList.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Collin Scripts/Robot Builder/Scriptable Object/RobotPartsList.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="548">
-              <caret line="59" column="31" selection-start-line="59" selection-start-column="31" selection-end-line="59" selection-end-column="31" />
+            <state relative-caret-position="743">
+              <caret line="124" column="47" selection-start-line="124" selection-start-column="47" selection-end-line="124" selection-end-column="47" />
               <folding>
-                <marker date="1527624125807" expanded="false" signature="6:116" ph="..." />
-                <marker date="1527624125807" expanded="true" signature="226:1327" ph="{...}" />
-                <marker date="1527624125807" expanded="true" signature="404:504" ph="{...}" />
-                <marker date="1527624125807" expanded="true" signature="549:577" ph="{...}" />
-                <marker date="1527624125807" expanded="true" signature="625:655" ph="{...}" />
-                <marker date="1527624125807" expanded="true" signature="700:727" ph="{...}" />
-                <marker date="1527624125807" expanded="true" signature="772:799" ph="{...}" />
-                <marker date="1527624125807" expanded="true" signature="848:1325" ph="{...}" />
-                <marker date="1527624125807" expanded="true" signature="878:943" ph="{...}" />
-                <marker date="1527624125807" expanded="true" signature="900:939" ph="{...}" />
-                <marker date="1527624125807" expanded="true" signature="974:1040" ph="{...}" />
-                <marker date="1527624125807" expanded="true" signature="996:1036" ph="{...}" />
-                <marker date="1527624125807" expanded="true" signature="1069:1133" ph="{...}" />
-                <marker date="1527624125807" expanded="true" signature="1091:1129" ph="{...}" />
-                <marker date="1527624125807" expanded="true" signature="1162:1226" ph="{...}" />
-                <marker date="1527624125807" expanded="true" signature="1184:1222" ph="{...}" />
+                <marker date="1527746657907" expanded="true" signature="6:140" ph="..." />
+                <marker date="1527746657907" expanded="true" signature="249:2449" ph="{...}" />
+                <marker date="1527746657907" expanded="true" signature="289:547" ph="/* public List&lt;RobotPartHead&gt; Heads; ... */" />
+                <marker date="1527746657907" expanded="true" signature="595:1468" ph="{...}" />
+                <marker date="1527746657907" expanded="true" signature="686:1354" ph="{...}" />
+                <marker date="1527746657907" expanded="true" signature="725:1126" ph="{...}" />
+                <marker date="1527746657907" expanded="true" signature="773:1121" ph="{...}" />
+                <marker date="1527746657907" expanded="true" signature="867:999" ph="{...}" />
+                <marker date="1527746657907" expanded="true" signature="1009:1109" ph="{...}" />
+                <marker date="1527746657907" expanded="true" signature="1361:1465" ph="{...}" />
+                <marker date="1527746657907" expanded="true" signature="1504:1577" ph="{...}" />
+                <marker date="1527746657907" expanded="true" signature="1548:1574" ph="{...}" />
+                <marker date="1527746657907" expanded="true" signature="1622:1669" ph="{...}" />
+                <marker date="1527746657907" expanded="true" signature="1732:1863" ph="{...}" />
+                <marker date="1527746657907" expanded="true" signature="1769:1844" ph="{...}" />
+                <marker date="1527746657907" expanded="true" signature="1807:1840" ph="{...}" />
+                <marker date="1527746657907" expanded="true" signature="1912:2222" ph="{...}" />
+                <marker date="1527746657907" expanded="true" signature="1950:2123" ph="{...}" />
+                <marker date="1527746657907" expanded="true" signature="1993:2119" ph="{...}" />
+                <marker date="1527746657907" expanded="true" signature="2032:2114" ph="{...}" />
+                <marker date="1527746657907" expanded="true" signature="2058:2108" ph="{...}" />
+                <marker date="1527746657907" expanded="true" signature="2257:2447" ph="{...}" />
+                <marker date="1527746657907" expanded="true" signature="2294:2444" ph="{...}" />
+                <marker date="1527746657907" expanded="true" signature="2348:2440" ph="{...}" />
+                <marker date="1527746657907" expanded="true" signature="2384:2435" ph="{...}" />
+                <marker date="1527746657907" expanded="true" signature="2494:2715" ph="{...}" />
+                <marker date="1527746657907" expanded="true" signature="2614:2713" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UnityEvent.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/E1E93E3D-1D8A-43F3-8039-C7C26FC3A447/07/1c7fe5e3/UnityEvent.cs">
+      <file leaf-file-name="Robot.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Collin Scripts/Robot Builder/Scriptable Object/Robot.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="69" column="26" selection-start-line="69" selection-start-column="26" selection-end-line="69" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Button.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/41DB6F59-441D-4237-BD15-0A4F215C0A24/ee/a81f0aa0/Button.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="60" column="6" selection-start-line="60" selection-start-column="6" selection-end-line="60" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ExecuteEvents.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/41DB6F59-441D-4237-BD15-0A4F215C0A24/4e/6adac465/ExecuteEvents.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="353" column="6" selection-start-line="353" selection-start-column="6" selection-end-line="353" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StandaloneInputModule.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/41DB6F59-441D-4237-BD15-0A4F215C0A24/0b/dca3f6f6/StandaloneInputModule.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="205">
-              <caret line="459" column="6" selection-start-line="459" selection-start-column="6" selection-end-line="459" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GameEventListener.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/ArtisanDream/Unite2017/Assets/Code/Events/GameEventListener.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="33" selection-start-line="33" selection-end-line="33" />
+            <state relative-caret-position="240">
+              <caret line="20" column="23" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
               <folding>
-                <marker date="1526580564074" expanded="true" signature="0:264" ph="/* ---------------------------------------------------------------------------- ... */" />
-                <marker date="1526580564074" expanded="false" signature="272:310" ph="..." />
-                <marker date="1526580564074" expanded="true" signature="351:875" ph="{...}" />
-                <marker date="1526580564074" expanded="true" signature="404:873" ph="{...}" />
-                <marker date="1526580564074" expanded="true" signature="619:681" ph="{...}" />
-                <marker date="1526580564074" expanded="true" signature="715:779" ph="{...}" />
-                <marker date="1526580564074" expanded="true" signature="816:867" ph="{...}" />
+                <marker date="1527747362195" expanded="false" signature="6:152" ph="..." />
+                <marker date="1527747362195" expanded="true" signature="242:1956" ph="{...}" />
+                <marker date="1527747362195" expanded="true" signature="661:847" ph="{...}" />
+                <marker date="1527747362195" expanded="true" signature="687:844" ph="{...}" />
+                <marker date="1527747362195" expanded="true" signature="757:840" ph="{...}" />
+                <marker date="1527747362195" expanded="true" signature="911:1446" ph="{...}" />
+                <marker date="1527747362195" expanded="true" signature="951:1250" ph="{...}" />
+                <marker date="1527747362195" expanded="true" signature="1034:1246" ph="{...}" />
+                <marker date="1527747362195" expanded="true" signature="1492:1726" ph="{...}" />
+                <marker date="1527747362195" expanded="true" signature="1540:1723" ph="{...}" />
+                <marker date="1527747362195" expanded="true" signature="1595:1719" ph="{...}" />
+                <marker date="1527747362195" expanded="true" signature="1779:1952" ph="{...}" />
+                <marker date="1527747362195" expanded="true" signature="1817:1882" ph="{...}" />
+                <marker date="1527747362195" expanded="true" signature="1851:1878" ph="{...}" />
+                <marker date="1527747362195" expanded="true" signature="1988:2169" ph="{...}" />
+                <marker date="1527747362195" expanded="true" signature="2109:2167" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GameEvent.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/ArtisanDream/Unite2017/Assets/Code/Events/GameEvent.cs">
+      <file leaf-file-name="RobotPartArms.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Collin Scripts/Robot Builder/Scriptable Object/RobotPartArms.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="25" selection-start-line="25" selection-end-line="25" />
+            <state relative-caret-position="255">
+              <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
               <folding>
-                <marker date="1526580564067" expanded="true" signature="0:264" ph="/* ---------------------------------------------------------------------------- ... */" />
-                <marker date="1526580564067" expanded="false" signature="272:318" ph="..." />
-                <marker date="1526580564067" expanded="true" signature="359:1211" ph="{...}" />
-                <marker date="1526580564067" expanded="true" signature="429:1209" ph="{...}" />
-                <marker date="1526580564067" expanded="true" signature="444:559" ph="/// The list of listeners that this event will notify if it is raised. ... " />
-                <marker date="1526580564067" expanded="true" signature="698:831" ph="{...}" />
-                <marker date="1526580564067" expanded="true" signature="897:1015" ph="{...}" />
-                <marker date="1526580564067" expanded="true" signature="1083:1203" ph="{...}" />
+                <marker date="1527747375636" expanded="false" signature="6:78" ph="..." />
+                <marker date="1527747375636" expanded="true" signature="177:630" ph="{...}" />
+                <marker date="1527747375636" expanded="true" signature="246:628" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="InvokableCall.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/E1E93E3D-1D8A-43F3-8039-C7C26FC3A447/6a/36c54b2b/InvokableCall.cs">
+      <file leaf-file-name="RobotPartLegs.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Collin Scripts/Robot Builder/Scriptable Object/RobotPartLegs.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="271">
-              <caret line="41" column="6" selection-start-line="41" selection-start-column="6" selection-end-line="41" selection-end-column="6" />
+            <state>
+              <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+              <folding>
+                <marker date="1527747385484" expanded="false" signature="6:78" ph="..." />
+                <marker date="1527747385484" expanded="true" signature="177:588" ph="{...}" />
+                <marker date="1527747385484" expanded="true" signature="246:586" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RobotPartBase.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Collin Scripts/Robot Builder/Scriptable Object/RobotPartBase.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="23" column="50" selection-start-line="23" selection-start-column="50" selection-end-line="23" selection-end-column="50" />
+              <folding>
+                <marker date="1527702639601" expanded="false" signature="6:78" ph="..." />
+                <marker date="1527702639601" expanded="true" signature="185:737" ph="{...}" />
+                <marker date="1527702639601" expanded="true" signature="394:735" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RobotMakerV2.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Collin Scripts/Robot Builder/Scriptable Object/RobotMakerV2.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="23" selection-start-line="23" selection-end-line="23" />
+              <folding>
+                <marker date="1527657905445" expanded="false" signature="6:52" ph="..." />
+                <marker date="1527657905445" expanded="true" signature="95:919" ph="{...}" />
+                <marker date="1527657905445" expanded="true" signature="193:495" ph="{...}" />
+                <marker date="1527657905445" expanded="true" signature="286:492" ph="{...}" />
+                <marker date="1527657905445" expanded="true" signature="339:488" ph="{...}" />
+                <marker date="1527657905445" expanded="true" signature="385:483" ph="{...}" />
+                <marker date="1527657905445" expanded="true" signature="541:581" ph="{...}" />
+                <marker date="1527657905445" expanded="true" signature="636:835" ph="{...}" />
+                <marker date="1527657905445" expanded="true" signature="675:752" ph="{...}" />
+                <marker date="1527657905445" expanded="true" signature="710:748" ph="{...}" />
+                <marker date="1527657905445" expanded="true" signature="861:917" ph="{...}" />
+                <marker date="1527657905445" expanded="true" signature="970:1030" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -149,18 +170,44 @@
       <file leaf-file-name="RobotBuilder.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Collin Scripts/Robot Builder/Scriptable Object/RobotBuilder.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="533">
-              <caret line="40" selection-start-line="40" selection-end-line="40" />
+            <state relative-caret-position="720">
+              <caret line="50" column="27" selection-start-line="50" selection-start-column="27" selection-end-line="50" selection-end-column="27" />
               <folding>
-                <marker date="1527457231768" expanded="false" signature="6:78" ph="..." />
-                <marker date="1527457231768" expanded="true" signature="122:1086" ph="{...}" />
-                <marker date="1527457231768" expanded="true" signature="314:388" ph="{...}" />
-                <marker date="1527457231768" expanded="true" signature="434:523" ph="{...}" />
-                <marker date="1527457231768" expanded="true" signature="572:624" ph="{...}" />
-                <marker date="1527457231768" expanded="true" signature="670:720" ph="{...}" />
-                <marker date="1527457231768" expanded="true" signature="766:816" ph="{...}" />
-                <marker date="1527457231768" expanded="true" signature="847:1084" ph="{...}" />
-                <marker date="1527457231768" expanded="true" signature="876:1081" ph="/* robot.weight = 0; ... */" />
+                <marker date="1527654570957" expanded="false" signature="6:78" ph="..." />
+                <marker date="1527654570957" expanded="true" signature="122:877" ph="{...}" />
+                <marker date="1527654570957" expanded="true" signature="314:388" ph="{...}" />
+                <marker date="1527654570957" expanded="true" signature="434:523" ph="{...}" />
+                <marker date="1527654570957" expanded="true" signature="572:624" ph="{...}" />
+                <marker date="1527654570957" expanded="true" signature="670:720" ph="{...}" />
+                <marker date="1527654570957" expanded="true" signature="766:816" ph="{...}" />
+                <marker date="1527654570957" expanded="true" signature="847:875" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PartType.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Collin Scripts/Robot Builder/Scriptable Object/PartType.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+              <folding>
+                <marker date="1527747445464" expanded="false" signature="6:78" ph="..." />
+                <marker date="1527747445464" expanded="true" signature="174:179" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RobotPartTorso.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Collin Scripts/Robot Builder/Scriptable Object/RobotPartTorso.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+              <folding>
+                <marker date="1527703230851" expanded="false" signature="6:78" ph="..." />
+                <marker date="1527703230851" expanded="true" signature="179:351" ph="{...}" />
+                <marker date="1527703230851" expanded="true" signature="183:349" ph="/* public override void Construct(Robot robot, Transform snapPoint) ... */" />
               </folding>
             </state>
           </provider>
@@ -208,6 +255,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/ArtisanDream/CharacterScripts/Scripts/FloatConstant.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9EC10724-BCC3-455D-A86D-06B8663F2EE3/7a/a0f7c787/NullReferenceException.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/41DB6F59-441D-4237-BD15-0A4F215C0A24/4e/6adac465/ExecuteEvents.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Collin Scripts/Robot Builder/AddRobotToPartsList.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ArtisanDream/AI/Scripts/AiPatrol.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/41DB6F59-441D-4237-BD15-0A4F215C0A24/0b/dca3f6f6/StandaloneInputModule.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ArtisanDream/AI/Scripts/AiBase.cs" root0="FORCE_HIGHLIGHTING" />
@@ -234,8 +282,10 @@
     <setting file="file://$PROJECT_DIR$/Assets/Collin Scripts/Scripts/VirtualJoystick.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Collin Scripts/Scripts/RangedFloat.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Collin Scripts/Scripts/RaiseEvent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Collin Scripts/Robot Builder/Scriptable Object/RobotMakerV2.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Collin Scripts/Scripts/WeaponManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Collin Scripts/Scripts/EnemyController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Collin Scripts/Robot Builder/Scriptable Object/PartType.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Collin Scripts/Scripts/RaiseEventOnDrag.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Collin Scripts/Scripts/Plane/ColorChangeWithHeight.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Collin Scripts/Scripts/Plane/PlayerHeightController.cs" root0="FORCE_HIGHLIGHTING" />
@@ -252,9 +302,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Collin Scripts/Health.cs" />
-        <option value="$PROJECT_DIR$/Assets/Collin Scripts/Scripts/Level Gen/ProceduralLevelGen.cs" />
-        <option value="$PROJECT_DIR$/Assets/ArtisanDream/CharacterScripts/Scripts/Player.cs" />
         <option value="$PROJECT_DIR$/Assets/Standard Assets/CrossPlatformInput/Scripts/Joystick.cs" />
         <option value="$PROJECT_DIR$/Assets/Collin Scripts/Scripts/RaiseEventOnDrag.cs" />
         <option value="$PROJECT_DIR$/Assets/Collin Scripts/Scripts/RaiseEventOnPointerUp.cs" />
@@ -268,18 +315,11 @@
         <option value="$PROJECT_DIR$/Assets/Collin Scripts/IPooledObject.cs" />
         <option value="$PROJECT_DIR$/Assets/Collin Scripts/ProjectileController.cs" />
         <option value="$PROJECT_DIR$/Assets/Collin Scripts/Scripts/BulletController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Collin Scripts/Robot Builder/Scriptable Object/RobotPartHead.cs" />
-        <option value="$PROJECT_DIR$/Assets/Collin Scripts/Robot Builder/Scriptable Object/RobotPartTorso.cs" />
-        <option value="$PROJECT_DIR$/Assets/Collin Scripts/Robot Builder/Scriptable Object/RobotPartBase.cs" />
-        <option value="$PROJECT_DIR$/Assets/Collin Scripts/Robot Builder/Scriptable Object/RobotPartArms.cs" />
-        <option value="$PROJECT_DIR$/Assets/Collin Scripts/Robot Builder/Scriptable Object/RobotPartLegs.cs" />
         <option value="$PROJECT_DIR$/Assets/Collin Scripts/Robot Builder/Scriptable Object/RobotSnapPoints.cs" />
         <option value="$PROJECT_DIR$/Assets/Collin Scripts/Scripts/EventManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Collin Scripts/Scripts/SpawnSOProjectile.cs" />
         <option value="$PROJECT_DIR$/Assets/Collin Scripts/Scripts/RaiseEvent.cs" />
         <option value="$PROJECT_DIR$/Assets/Collin Scripts/Robot Builder/Scriptable Object/RobotConstruction.cs" />
-        <option value="$PROJECT_DIR$/Assets/Collin Scripts/Robot Builder/Scriptable Object/RobotBuilder.cs" />
-        <option value="$PROJECT_DIR$/Assets/Collin Scripts/Robot Builder/Scriptable Object/Robot.cs" />
         <option value="$PROJECT_DIR$/Assets/Collin Scripts/Scriptable Objects/SO Scripts/AudioEvent.cs" />
         <option value="$PROJECT_DIR$/Assets/Collin Scripts/editor/AudioEventEditor.cs" />
         <option value="$PROJECT_DIR$/Assets/Collin Scripts/editor/RangedFloatEditor.cs" />
@@ -291,7 +331,6 @@
         <option value="$PROJECT_DIR$/Assets/Editor/MinMaxRangeAttribute.cs" />
         <option value="$PROJECT_DIR$/Assets/Editor/MinMaxRangeDrawer.cs" />
         <option value="$PROJECT_DIR$/Assets/Collin Scripts/Scriptable Objects/SO Scripts/PlayRandomAudio.cs" />
-        <option value="$PROJECT_DIR$/Assets/Collin Scripts/Scripts/RangedFloat.cs" />
         <option value="$PROJECT_DIR$/Assets/ArtisanDream/CharacterScripts/Scripts/FloatVariable.cs" />
         <option value="$PROJECT_DIR$/Assets/Collin Scripts/Scripts/MissleController.cs" />
         <option value="$PROJECT_DIR$/Assets/Collin Scripts/Scripts/ShakeObject.cs" />
@@ -301,8 +340,19 @@
         <option value="$PROJECT_DIR$/Assets/Collin Scripts/HealthManagerMono.cs" />
         <option value="$PROJECT_DIR$/Assets/Collin Scripts/HealthManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Collin Scripts/Hurtbox.cs" />
-        <option value="$PROJECT_DIR$/Assets/Collin Scripts/Robot Builder/Scriptable Object/RobotPartsList.cs" />
+        <option value="$PROJECT_DIR$/Assets/Collin Scripts/Scripts/RangedFloat.cs" />
+        <option value="$PROJECT_DIR$/Assets/Collin Scripts/Robot Builder/Scriptable Object/RobotBuilder.cs" />
+        <option value="$PROJECT_DIR$/Assets/Collin Scripts/Robot Builder/Scriptable Object/RobotPartHead.cs" />
+        <option value="$PROJECT_DIR$/Assets/Collin Scripts/Robot Builder/Scriptable Object/RobotMakerV2.cs" />
+        <option value="$PROJECT_DIR$/Assets/Collin Scripts/Robot Builder/Scriptable Object/RobotPartBase.cs" />
+        <option value="$PROJECT_DIR$/Assets/Collin Scripts/Robot Builder/Scriptable Object/RobotPartTorso.cs" />
+        <option value="$PROJECT_DIR$/Assets/Collin Scripts/Robot Builder/AddRobotToPartsList.cs" />
         <option value="$PROJECT_DIR$/Assets/Collin Scripts/Robot Builder/Scriptable Object/SwapParts.cs" />
+        <option value="$PROJECT_DIR$/Assets/Collin Scripts/Robot Builder/Scriptable Object/RobotPartsList.cs" />
+        <option value="$PROJECT_DIR$/Assets/Collin Scripts/Robot Builder/Scriptable Object/Robot.cs" />
+        <option value="$PROJECT_DIR$/Assets/Collin Scripts/Robot Builder/Scriptable Object/RobotPartArms.cs" />
+        <option value="$PROJECT_DIR$/Assets/Collin Scripts/Robot Builder/Scriptable Object/RobotPartLegs.cs" />
+        <option value="$PROJECT_DIR$/Assets/Collin Scripts/Robot Builder/Scriptable Object/PartType.cs" />
       </list>
     </option>
   </component>
@@ -316,8 +366,9 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="7">
-    <option name="y" value="23" />
-    <option name="width" value="1627" />
+    <option name="x" value="296" />
+    <option name="y" value="97" />
+    <option name="width" value="1146" />
     <option name="height" value="834" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -339,10 +390,10 @@
         <option name="show-file-system" value="false" />
         <option name="show-all-items" value="false" />
       </pane>
-      <pane id="Scratches" />
       <pane id="UnityExplorer">
         <option name="show-hidden-items" value="false" />
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -365,9 +416,9 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" pid="12232">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="12232" />
+      <option name="pid" />
     </configuration>
   </component>
   <component name="SvnConfiguration">
@@ -389,11 +440,14 @@
       <workItem from="1527448877494" duration="14873000" />
       <workItem from="1527474658500" duration="4764000" />
       <workItem from="1527623224338" duration="1067000" />
+      <workItem from="1527651463648" duration="6794000" />
+      <workItem from="1527702297783" duration="7850000" />
+      <workItem from="1527744883932" duration="1851000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70474000" />
+    <option name="totallyTimeSpent" value="86969000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -413,16 +467,16 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.32897604" />
       <window_info anchor="bottom" id="Unit Tests" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.21055438" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.20948827" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Unity" order="8" />
       <window_info anchor="right" id="Database" order="4" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39978212" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.30283225" />
       <window_info anchor="bottom" id="NuGet" order="7" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -463,7 +517,7 @@
           <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="8" />
+      <option name="time" value="9" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="UNITY_DEBUG_RUN_CONFIGURATION">
@@ -481,27 +535,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Assets/Collin Scripts/ObjectPooler.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Collin Scripts/Scriptable Objects/SO Scripts/SO_Projectile.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Collin Scripts/ProjectileController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Collin Scripts/IPooledObject.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -516,24 +549,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Collin Scripts/Robot Builder/Scriptable Object/RobotPartTorso.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="11" column="40" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9EC10724-BCC3-455D-A86D-06B8663F2EE3/7a/a0f7c787/NullReferenceException.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="205">
           <caret line="20" column="6" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Collin Scripts/Robot Builder/Scriptable Object/RobotPartLegs.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="17" column="39" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
         </state>
       </provider>
     </entry>
@@ -545,20 +564,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Collin Scripts/Scripts/RaiseEventOnPointerUp.cs" />
-    <entry file="file://$PROJECT_DIR$/Assets/Collin Scripts/Robot Builder/Scriptable Object/RobotPartHead.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="8" column="68" selection-start-line="8" selection-start-column="68" selection-end-line="8" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Collin Scripts/Robot Builder/Scriptable Object/RobotPartBase.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Collin Scripts/Scripts/RaiseEvent.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -602,23 +607,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Collin Scripts/Scripts/RangedFloat.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/ArtisanDream/CharacterScripts/Scripts/FloatVariable.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-          <folding>
-            <marker date="1527466201295" expanded="true" signature="113:374" ph="{...}" />
-            <marker date="1527466201295" expanded="true" signature="168:192" ph="{...}" />
-            <marker date="1527466201295" expanded="true" signature="218:283" ph="{...}" />
-            <marker date="1527466201295" expanded="true" signature="318:372" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -626,23 +618,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="690">
           <caret line="48" column="10" selection-start-line="48" selection-start-column="10" selection-end-line="48" selection-end-column="10" />
-          <folding>
-            <marker date="1527466227016" expanded="false" signature="6:78" ph="..." />
-            <marker date="1527466227016" expanded="true" signature="101:1864" ph="{...}" />
-            <marker date="1527466227016" expanded="true" signature="165:1862" ph="{...}" />
-            <marker date="1527466227016" expanded="true" signature="459:581" ph="{...}" />
-            <marker date="1527466227016" expanded="true" signature="634:666" ph="{...}" />
-            <marker date="1527466227016" expanded="true" signature="702:825" ph="{...}" />
-            <marker date="1527466227016" expanded="true" signature="862:1300" ph="{...}" />
-            <marker date="1527466227016" expanded="true" signature="881:1296" ph="{...}" />
-            <marker date="1527466227016" expanded="true" signature="1333:1446" ph="{...}" />
-            <marker date="1527466227016" expanded="true" signature="1367:1400" ph="{...}" />
-            <marker date="1527466227016" expanded="true" signature="1408:1442" ph="{...}" />
-            <marker date="1527466227016" expanded="true" signature="1501:1731" ph="{...}" />
-            <marker date="1527466227016" expanded="true" signature="1589:1655" ph="{...}" />
-            <marker date="1527466227016" expanded="true" signature="1621:1650" ph="{...}" />
-            <marker date="1527466227016" expanded="true" signature="1764:1859" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -650,17 +625,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
-          <folding>
-            <marker date="1527468151521" expanded="false" signature="6:101" ph="..." />
-            <marker date="1527468151521" expanded="true" signature="143:2503" ph="{...}" />
-            <marker date="1527468151521" expanded="true" signature="610:820" ph="{...}" />
-            <marker date="1527468151521" expanded="true" signature="642:681" ph="{...}" />
-            <marker date="1527468151521" expanded="true" signature="858:966" ph="{...}" />
-            <marker date="1527468151521" expanded="true" signature="925:963" ph="{...}" />
-            <marker date="1527468151521" expanded="true" signature="998:2125" ph="{...}" />
-            <marker date="1527468151521" expanded="true" signature="1088:2098" ph="{...}" />
-            <marker date="1527468151521" expanded="true" signature="2188:2501" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -669,12 +633,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="21" column="50" selection-start-line="21" selection-start-column="50" selection-end-line="21" selection-end-column="50" />
-          <folding>
-            <marker date="1527482997136" expanded="false" signature="6:119" ph="..." />
-            <marker date="1527482997136" expanded="true" signature="158:484" ph="{...}" />
-            <marker date="1527482997136" expanded="true" signature="264:342" ph="{...}" />
-            <marker date="1527482997136" expanded="true" signature="387:480" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -682,14 +640,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="23" column="52" selection-start-line="23" selection-start-column="52" selection-end-line="23" selection-end-column="52" />
-          <folding>
-            <marker date="1527483062444" expanded="false" signature="6:97" ph="..." />
-            <marker date="1527483062444" expanded="true" signature="154:930" ph="{...}" />
-            <marker date="1527483062444" expanded="true" signature="298:786" ph="{...}" />
-            <marker date="1527483062444" expanded="true" signature="739:783" ph="{...}" />
-            <marker date="1527483062444" expanded="true" signature="842:851" ph="{...}" />
-            <marker date="1527483062444" expanded="true" signature="888:925" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -697,35 +647,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
-          <folding>
-            <marker date="1527485751999" expanded="false" signature="6:78" ph="..." />
-            <marker date="1527485751999" expanded="true" signature="122:248" ph="{...}" />
-            <marker date="1527485751999" expanded="true" signature="220:245" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Collin Scripts/Hitbox.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <marker date="1527005184111" expanded="false" signature="6:78" ph="..." />
-            <marker date="1527005184111" expanded="true" signature="101:419" ph="{...}" />
-            <marker date="1527005184111" expanded="true" signature="140:417" ph="{...}" />
-            <marker date="1527005184111" expanded="true" signature="222:414" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Collin Scripts/HealthManagerMono.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="13" column="33" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
-          <folding>
-            <marker date="1527486511821" expanded="false" signature="6:97" ph="..." />
-            <marker date="1527486511821" expanded="true" signature="145:278" ph="{...}" />
-            <marker date="1527486511821" expanded="true" signature="239:276" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -768,83 +699,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Collin Scripts/Robot Builder/Scriptable Object/RobotPartArms.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <marker date="1527456403792" expanded="false" signature="6:78" ph="..." />
-            <marker date="1527456403792" expanded="true" signature="177:659" ph="{...}" />
-            <marker date="1527456403792" expanded="true" signature="246:657" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Collin Scripts/Robot Builder/Scriptable Object/Robot.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="38" selection-start-line="38" selection-end-line="38" />
-          <folding>
-            <marker date="1527457399980" expanded="false" signature="6:114" ph="..." />
-            <marker date="1527457399980" expanded="true" signature="204:2173" ph="{...}" />
-            <marker date="1527457399980" expanded="true" signature="655:882" ph="{...}" />
-            <marker date="1527457399980" expanded="true" signature="681:879" ph="{...}" />
-            <marker date="1527457399980" expanded="true" signature="927:1031" ph="{...}" />
-            <marker date="1527457399980" expanded="true" signature="1079:1143" ph="{...}" />
-            <marker date="1527457399980" expanded="true" signature="1208:1657" ph="{...}" />
-            <marker date="1527457399980" expanded="true" signature="1722:2171" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/ArtisanDream/Unite2017/Assets/Code/Events/GameEvent.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="25" selection-start-line="25" selection-end-line="25" />
-          <folding>
-            <marker date="1526580564067" expanded="true" signature="0:264" ph="/* ---------------------------------------------------------------------------- ... */" />
-            <marker date="1526580564067" expanded="false" signature="272:318" ph="..." />
-            <marker date="1526580564067" expanded="true" signature="359:1211" ph="{...}" />
-            <marker date="1526580564067" expanded="true" signature="429:1209" ph="{...}" />
-            <marker date="1526580564067" expanded="true" signature="444:559" ph="/// The list of listeners that this event will notify if it is raised. ... " />
-            <marker date="1526580564067" expanded="true" signature="698:831" ph="{...}" />
-            <marker date="1526580564067" expanded="true" signature="897:1015" ph="{...}" />
-            <marker date="1526580564067" expanded="true" signature="1083:1203" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/E1E93E3D-1D8A-43F3-8039-C7C26FC3A447/6a/36c54b2b/InvokableCall.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
+        <state relative-caret-position="615">
           <caret line="41" column="6" selection-start-line="41" selection-start-column="6" selection-end-line="41" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/E1E93E3D-1D8A-43F3-8039-C7C26FC3A447/07/1c7fe5e3/UnityEvent.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
+        <state relative-caret-position="1035">
           <caret line="69" column="26" selection-start-line="69" selection-start-column="26" selection-end-line="69" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/41DB6F59-441D-4237-BD15-0A4F215C0A24/ee/a81f0aa0/Button.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
+        <state relative-caret-position="900">
           <caret line="60" column="6" selection-start-line="60" selection-start-column="6" selection-end-line="60" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/41DB6F59-441D-4237-BD15-0A4F215C0A24/4e/6adac465/ExecuteEvents.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
+        <state relative-caret-position="5295">
           <caret line="353" column="6" selection-start-line="353" selection-start-column="6" selection-end-line="353" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/41DB6F59-441D-4237-BD15-0A4F215C0A24/0b/dca3f6f6/StandaloneInputModule.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
+        <state relative-caret-position="6885">
           <caret line="459" column="6" selection-start-line="459" selection-start-column="6" selection-end-line="459" selection-end-column="6" />
         </state>
       </provider>
@@ -853,81 +745,218 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
           <caret line="33" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Collin Scripts/Scripts/RangedFloat.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Collin Scripts/Robot Builder/Scriptable Object/RobotPartHead.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="12" column="7" selection-start-line="8" selection-start-column="6" selection-end-line="12" selection-end-column="7" />
           <folding>
-            <marker date="1526580564074" expanded="true" signature="0:264" ph="/* ---------------------------------------------------------------------------- ... */" />
-            <marker date="1526580564074" expanded="false" signature="272:310" ph="..." />
-            <marker date="1526580564074" expanded="true" signature="351:875" ph="{...}" />
-            <marker date="1526580564074" expanded="true" signature="404:873" ph="{...}" />
-            <marker date="1526580564074" expanded="true" signature="619:681" ph="{...}" />
-            <marker date="1526580564074" expanded="true" signature="715:779" ph="{...}" />
-            <marker date="1526580564074" expanded="true" signature="816:867" ph="{...}" />
+            <marker date="1527654978778" expanded="false" signature="6:78" ph="..." />
+            <marker date="1527654978778" expanded="true" signature="177:357" ph="{...}" />
+            <marker date="1527654978778" expanded="true" signature="181:355" ph="/* public override void Construct(Robot robot, Transform snapPoint) ... */" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Collin Scripts/Robot Builder/Scriptable Object/RobotBuilder.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Collin Scripts/Robot Builder/AddRobotToPartsList.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="533">
-          <caret line="40" selection-start-line="40" selection-end-line="40" />
+        <state relative-caret-position="150">
+          <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
           <folding>
-            <marker date="1527457231768" expanded="false" signature="6:78" ph="..." />
-            <marker date="1527457231768" expanded="true" signature="122:1086" ph="{...}" />
-            <marker date="1527457231768" expanded="true" signature="314:388" ph="{...}" />
-            <marker date="1527457231768" expanded="true" signature="434:523" ph="{...}" />
-            <marker date="1527457231768" expanded="true" signature="572:624" ph="{...}" />
-            <marker date="1527457231768" expanded="true" signature="670:720" ph="{...}" />
-            <marker date="1527457231768" expanded="true" signature="766:816" ph="{...}" />
-            <marker date="1527457231768" expanded="true" signature="847:1084" ph="{...}" />
-            <marker date="1527457231768" expanded="true" signature="876:1081" ph="/* robot.weight = 0; ... */" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Collin Scripts/Robot Builder/Scriptable Object/RobotPartsList.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="548">
-          <caret line="59" column="31" selection-start-line="59" selection-start-column="31" selection-end-line="59" selection-end-column="31" />
-          <folding>
-            <marker date="1527624125807" expanded="false" signature="6:116" ph="..." />
-            <marker date="1527624125807" expanded="true" signature="226:1327" ph="{...}" />
-            <marker date="1527624125807" expanded="true" signature="404:504" ph="{...}" />
-            <marker date="1527624125807" expanded="true" signature="549:577" ph="{...}" />
-            <marker date="1527624125807" expanded="true" signature="625:655" ph="{...}" />
-            <marker date="1527624125807" expanded="true" signature="700:727" ph="{...}" />
-            <marker date="1527624125807" expanded="true" signature="772:799" ph="{...}" />
-            <marker date="1527624125807" expanded="true" signature="848:1325" ph="{...}" />
-            <marker date="1527624125807" expanded="true" signature="878:943" ph="{...}" />
-            <marker date="1527624125807" expanded="true" signature="900:939" ph="{...}" />
-            <marker date="1527624125807" expanded="true" signature="974:1040" ph="{...}" />
-            <marker date="1527624125807" expanded="true" signature="996:1036" ph="{...}" />
-            <marker date="1527624125807" expanded="true" signature="1069:1133" ph="{...}" />
-            <marker date="1527624125807" expanded="true" signature="1091:1129" ph="{...}" />
-            <marker date="1527624125807" expanded="true" signature="1162:1226" ph="{...}" />
-            <marker date="1527624125807" expanded="true" signature="1184:1222" ph="{...}" />
+            <marker date="1527707031486" expanded="false" signature="6:78" ph="..." />
+            <marker date="1527707031486" expanded="true" signature="128:246" ph="{...}" />
+            <marker date="1527707031486" expanded="true" signature="209:244" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Collin Scripts/Robot Builder/Scriptable Object/SwapParts.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="8" column="55" lean-forward="true" selection-start-line="8" selection-start-column="55" selection-end-line="8" selection-end-column="55" />
+        <state relative-caret-position="990">
+          <caret line="68" column="35" selection-start-line="68" selection-start-column="35" selection-end-line="68" selection-end-column="35" />
           <folding>
-            <marker date="1527624288065" expanded="false" signature="6:78" ph="..." />
-            <marker date="1527624288065" expanded="true" signature="119:2397" ph="{...}" />
-            <marker date="1527624288065" expanded="true" signature="385:725" ph="{...}" />
-            <marker date="1527624288065" expanded="true" signature="394:483" ph="/* find index of current robot parts in parts list ... */" />
-            <marker date="1527624288065" expanded="true" signature="752:954" ph="{...}" />
-            <marker date="1527624288065" expanded="true" signature="1002:1225" ph="{...}" />
-            <marker date="1527624288065" expanded="true" signature="1053:1101" ph="{...}" />
-            <marker date="1527624288065" expanded="true" signature="1148:1176" ph="{...}" />
-            <marker date="1527624288065" expanded="true" signature="1254:1403" ph="{...}" />
-            <marker date="1527624288065" expanded="true" signature="1429:1597" ph="{...}" />
-            <marker date="1527624288065" expanded="true" signature="1627:1765" ph="{...}" />
-            <marker date="1527624288065" expanded="true" signature="1790:1919" ph="{...}" />
-            <marker date="1527624288065" expanded="true" signature="1948:2077" ph="{...}" />
-            <marker date="1527624288065" expanded="true" signature="2102:2231" ph="{...}" />
-            <marker date="1527624288065" expanded="true" signature="2260:2389" ph="{...}" />
+            <marker date="1527709571133" expanded="false" signature="6:78" ph="..." />
+            <marker date="1527709571133" expanded="true" signature="119:3710" ph="{...}" />
+            <marker date="1527709571133" expanded="true" signature="511:909" ph="{...}" />
+            <marker date="1527709571133" expanded="true" signature="520:855" ph="/* find index of current robot parts in parts list ... */" />
+            <marker date="1527709571133" expanded="true" signature="944:1303" ph="{...}" />
+            <marker date="1527709571133" expanded="true" signature="974:1032" ph="{...}" />
+            <marker date="1527709571133" expanded="true" signature="1089:1300" ph="{...}" />
+            <marker date="1527709571133" expanded="true" signature="1141:1216" ph="{...}" />
+            <marker date="1527709571133" expanded="true" signature="1224:1296" ph="{...}" />
+            <marker date="1527709571133" expanded="true" signature="1345:1553" ph="{...}" />
+            <marker date="1527709571133" expanded="true" signature="1439:1477" ph="{...}" />
+            <marker date="1527709571133" expanded="true" signature="1599:1807" ph="{...}" />
+            <marker date="1527709571133" expanded="true" signature="1662:1731" ph="{...}" />
+            <marker date="1527709571133" expanded="true" signature="1809:3707" ph="/* public void NextHead() ... */" />
+            <marker date="1527709571133" expanded="true" signature="3841:3875" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Collin Scripts/Robot Builder/Scriptable Object/RobotPartTorso.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+          <folding>
+            <marker date="1527703230851" expanded="false" signature="6:78" ph="..." />
+            <marker date="1527703230851" expanded="true" signature="179:351" ph="{...}" />
+            <marker date="1527703230851" expanded="true" signature="183:349" ph="/* public override void Construct(Robot robot, Transform snapPoint) ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Collin Scripts/Robot Builder/Scriptable Object/RobotMakerV2.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <marker date="1527657905445" expanded="false" signature="6:52" ph="..." />
+            <marker date="1527657905445" expanded="true" signature="95:919" ph="{...}" />
+            <marker date="1527657905445" expanded="true" signature="193:495" ph="{...}" />
+            <marker date="1527657905445" expanded="true" signature="286:492" ph="{...}" />
+            <marker date="1527657905445" expanded="true" signature="339:488" ph="{...}" />
+            <marker date="1527657905445" expanded="true" signature="385:483" ph="{...}" />
+            <marker date="1527657905445" expanded="true" signature="541:581" ph="{...}" />
+            <marker date="1527657905445" expanded="true" signature="636:835" ph="{...}" />
+            <marker date="1527657905445" expanded="true" signature="675:752" ph="{...}" />
+            <marker date="1527657905445" expanded="true" signature="710:748" ph="{...}" />
+            <marker date="1527657905445" expanded="true" signature="861:917" ph="{...}" />
+            <marker date="1527657905445" expanded="true" signature="970:1030" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Collin Scripts/Robot Builder/Scriptable Object/RobotPartsList.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="743">
+          <caret line="124" column="47" selection-start-line="124" selection-start-column="47" selection-end-line="124" selection-end-column="47" />
+          <folding>
+            <marker date="1527746657907" expanded="true" signature="6:140" ph="..." />
+            <marker date="1527746657907" expanded="true" signature="249:2449" ph="{...}" />
+            <marker date="1527746657907" expanded="true" signature="289:547" ph="/* public List&lt;RobotPartHead&gt; Heads; ... */" />
+            <marker date="1527746657907" expanded="true" signature="595:1468" ph="{...}" />
+            <marker date="1527746657907" expanded="true" signature="686:1354" ph="{...}" />
+            <marker date="1527746657907" expanded="true" signature="725:1126" ph="{...}" />
+            <marker date="1527746657907" expanded="true" signature="773:1121" ph="{...}" />
+            <marker date="1527746657907" expanded="true" signature="867:999" ph="{...}" />
+            <marker date="1527746657907" expanded="true" signature="1009:1109" ph="{...}" />
+            <marker date="1527746657907" expanded="true" signature="1361:1465" ph="{...}" />
+            <marker date="1527746657907" expanded="true" signature="1504:1577" ph="{...}" />
+            <marker date="1527746657907" expanded="true" signature="1548:1574" ph="{...}" />
+            <marker date="1527746657907" expanded="true" signature="1622:1669" ph="{...}" />
+            <marker date="1527746657907" expanded="true" signature="1732:1863" ph="{...}" />
+            <marker date="1527746657907" expanded="true" signature="1769:1844" ph="{...}" />
+            <marker date="1527746657907" expanded="true" signature="1807:1840" ph="{...}" />
+            <marker date="1527746657907" expanded="true" signature="1912:2222" ph="{...}" />
+            <marker date="1527746657907" expanded="true" signature="1950:2123" ph="{...}" />
+            <marker date="1527746657907" expanded="true" signature="1993:2119" ph="{...}" />
+            <marker date="1527746657907" expanded="true" signature="2032:2114" ph="{...}" />
+            <marker date="1527746657907" expanded="true" signature="2058:2108" ph="{...}" />
+            <marker date="1527746657907" expanded="true" signature="2257:2447" ph="{...}" />
+            <marker date="1527746657907" expanded="true" signature="2294:2444" ph="{...}" />
+            <marker date="1527746657907" expanded="true" signature="2348:2440" ph="{...}" />
+            <marker date="1527746657907" expanded="true" signature="2384:2435" ph="{...}" />
+            <marker date="1527746657907" expanded="true" signature="2494:2715" ph="{...}" />
+            <marker date="1527746657907" expanded="true" signature="2614:2713" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Collin Scripts/Robot Builder/Scriptable Object/RobotBuilder.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="50" column="27" selection-start-line="50" selection-start-column="27" selection-end-line="50" selection-end-column="27" />
+          <folding>
+            <marker date="1527654570957" expanded="false" signature="6:78" ph="..." />
+            <marker date="1527654570957" expanded="true" signature="122:877" ph="{...}" />
+            <marker date="1527654570957" expanded="true" signature="314:388" ph="{...}" />
+            <marker date="1527654570957" expanded="true" signature="434:523" ph="{...}" />
+            <marker date="1527654570957" expanded="true" signature="572:624" ph="{...}" />
+            <marker date="1527654570957" expanded="true" signature="670:720" ph="{...}" />
+            <marker date="1527654570957" expanded="true" signature="766:816" ph="{...}" />
+            <marker date="1527654570957" expanded="true" signature="847:875" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Collin Scripts/Robot Builder/Scriptable Object/RobotPartBase.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="23" column="50" selection-start-line="23" selection-start-column="50" selection-end-line="23" selection-end-column="50" />
+          <folding>
+            <marker date="1527702639601" expanded="false" signature="6:78" ph="..." />
+            <marker date="1527702639601" expanded="true" signature="185:737" ph="{...}" />
+            <marker date="1527702639601" expanded="true" signature="394:735" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Collin Scripts/Robot Builder/Scriptable Object/RobotPartArms.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
+          <folding>
+            <marker date="1527747375636" expanded="false" signature="6:78" ph="..." />
+            <marker date="1527747375636" expanded="true" signature="177:630" ph="{...}" />
+            <marker date="1527747375636" expanded="true" signature="246:628" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Collin Scripts/Robot Builder/Scriptable Object/RobotPartLegs.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+          <folding>
+            <marker date="1527747385484" expanded="false" signature="6:78" ph="..." />
+            <marker date="1527747385484" expanded="true" signature="177:588" ph="{...}" />
+            <marker date="1527747385484" expanded="true" signature="246:586" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Collin Scripts/Robot Builder/Scriptable Object/Robot.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="20" column="23" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
+          <folding>
+            <marker date="1527747362195" expanded="false" signature="6:152" ph="..." />
+            <marker date="1527747362195" expanded="true" signature="242:1956" ph="{...}" />
+            <marker date="1527747362195" expanded="true" signature="661:847" ph="{...}" />
+            <marker date="1527747362195" expanded="true" signature="687:844" ph="{...}" />
+            <marker date="1527747362195" expanded="true" signature="757:840" ph="{...}" />
+            <marker date="1527747362195" expanded="true" signature="911:1446" ph="{...}" />
+            <marker date="1527747362195" expanded="true" signature="951:1250" ph="{...}" />
+            <marker date="1527747362195" expanded="true" signature="1034:1246" ph="{...}" />
+            <marker date="1527747362195" expanded="true" signature="1492:1726" ph="{...}" />
+            <marker date="1527747362195" expanded="true" signature="1540:1723" ph="{...}" />
+            <marker date="1527747362195" expanded="true" signature="1595:1719" ph="{...}" />
+            <marker date="1527747362195" expanded="true" signature="1779:1952" ph="{...}" />
+            <marker date="1527747362195" expanded="true" signature="1817:1882" ph="{...}" />
+            <marker date="1527747362195" expanded="true" signature="1851:1878" ph="{...}" />
+            <marker date="1527747362195" expanded="true" signature="1988:2169" ph="{...}" />
+            <marker date="1527747362195" expanded="true" signature="2109:2167" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Collin Scripts/Robot Builder/Scriptable Object/PartType.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+          <folding>
+            <marker date="1527747445464" expanded="false" signature="6:78" ph="..." />
+            <marker date="1527747445464" expanded="true" signature="174:179" ph="{...}" />
           </folding>
         </state>
       </provider>

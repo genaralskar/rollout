@@ -6,9 +6,9 @@ using UnityEngine;
 public class RobotPartHead : RobotPartBase
 {
 
-    public override void Construct(Robot robot, Transform snapPoint)
-    {
-        base.Construct(robot, snapPoint);
-        robot.UpdateHead(instancePart);
-    }
+//    public override void Construct(Robot robot, Transform snapPoint)
+//    {
+//        base.Construct(robot, snapPoint);
+//        //robot.UpdateHead(instancePart);
+//    }
 }

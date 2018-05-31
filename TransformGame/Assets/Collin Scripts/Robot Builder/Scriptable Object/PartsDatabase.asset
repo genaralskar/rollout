@@ -11,12 +11,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 45f9c2b5771e449488f5790844083938, type: 3}
   m_Name: PartsDatabase
   m_EditorClassIdentifier: 
-  Heads:
-  - {fileID: 11400000, guid: 7eb1b1ae7c569054c8ca1c454f978e3a, type: 2}
-  - {fileID: 11400000, guid: 1dfeb3361b5208545a9ba127f62b86a6, type: 2}
-  Torsos:
-  - {fileID: 11400000, guid: e02aac758dd21014492ebbd260d18e3c, type: 2}
-  Arms:
-  - {fileID: 11400000, guid: 733718b853b477646880b619a7ca8c5d, type: 2}
-  Legs:
-  - {fileID: 11400000, guid: d06bc6aceb5b0d644af64340e3e9d176, type: 2}
+  partsList:
+  - partType: {fileID: 11400000, guid: 8dfa4118da064ea40b600258517426d1, type: 2}
+    parts:
+    - {fileID: 11400000, guid: 7eb1b1ae7c569054c8ca1c454f978e3a, type: 2}
+  - partType: {fileID: 11400000, guid: cd7f547d07382dc41ac18a69e4675799, type: 2}
+    parts:
+    - {fileID: 11400000, guid: 4aac58fe01d3aed4ba2d571cfdc6e919, type: 2}
+  - partType: {fileID: 11400000, guid: 602b05d1dba464846a98ff92f97e756c, type: 2}
+    parts:
+    - {fileID: 11400000, guid: 0601884c99fdc53469aad876beacb123, type: 2}
+  - partType: {fileID: 11400000, guid: 33ddbe63dda7d804cac22f768489e68f, type: 2}
+    parts:
+    - {fileID: 11400000, guid: e2c567a5a439f604e868122939364842, type: 2}
+  - partType: {fileID: 11400000, guid: b6eba451f940afd48a47f6000486db71, type: 2}
+    parts:
+    - {fileID: 11400000, guid: d2e2648e61e85c84880999a1077ce91b, type: 2}
+  - partType: {fileID: 11400000, guid: 9d4f94ea7a490474aad19386609a83b7, type: 2}
+    parts:
+    - {fileID: 11400000, guid: 0b8676962a64d004d98d4fd583fb7c29, type: 2}
