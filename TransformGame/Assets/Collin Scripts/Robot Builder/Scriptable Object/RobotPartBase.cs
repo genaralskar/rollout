@@ -22,6 +22,7 @@ public class RobotPartBase : ScriptableObject
 		partT.SetParent(snapPoint);
 		partT.localPosition = Vector3.zero;
 		partT.localRotation = Quaternion.identity;
+		partT.localScale = Vector3.one;
 		instancePart = newObj;
 
 		robot.weight += weight;

@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b26661d6bb7da754a852b2a8ec893aa3, type: 3}
+  m_Name: Head 2
+  m_EditorClassIdentifier: 
+  part: {fileID: 1668915071676016, guid: 6abe78f4aa4cef0499f004b84edf0f2d, type: 2}
+  weight: 1
+  armor: 1
+  partType: {fileID: 11400000, guid: 8dfa4118da064ea40b600258517426d1, type: 2}

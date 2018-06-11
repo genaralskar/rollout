@@ -14,7 +14,8 @@ MonoBehaviour:
   partsList:
   - partType: {fileID: 11400000, guid: 8dfa4118da064ea40b600258517426d1, type: 2}
     parts:
-    - {fileID: 11400000, guid: 7eb1b1ae7c569054c8ca1c454f978e3a, type: 2}
+    - {fileID: 11400000, guid: ebdfe33910dd81741ae67eb7fcf57b95, type: 2}
+    - {fileID: 11400000, guid: 3320db5c61245e84993dcf4505847ef1, type: 2}
   - partType: {fileID: 11400000, guid: cd7f547d07382dc41ac18a69e4675799, type: 2}
     parts:
     - {fileID: 11400000, guid: 4aac58fe01d3aed4ba2d571cfdc6e919, type: 2}
@@ -30,3 +31,6 @@ MonoBehaviour:
   - partType: {fileID: 11400000, guid: 9d4f94ea7a490474aad19386609a83b7, type: 2}
     parts:
     - {fileID: 11400000, guid: 0b8676962a64d004d98d4fd583fb7c29, type: 2}
+  - partType: {fileID: 11400000, guid: ef642a02872ff9b419f5d6546ce0426d, type: 2}
+    parts:
+    - {fileID: 11400000, guid: 4aac58fe01d3aed4ba2d571cfdc6e919, type: 2}

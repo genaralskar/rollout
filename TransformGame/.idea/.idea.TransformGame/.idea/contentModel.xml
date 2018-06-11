@@ -187,12 +187,8 @@
             <e p="Robot.cs" t="Include" />
             <e p="RobotBuilder.cs" t="Include" />
             <e p="RobotMakerV2.cs" t="Include" />
-            <e p="RobotPartArms.cs" t="Include" />
             <e p="RobotPartBase.cs" t="Include" />
-            <e p="RobotPartHead.cs" t="Include" />
-            <e p="RobotPartLegs.cs" t="Include" />
             <e p="RobotPartsList.cs" t="Include" />
-            <e p="RobotPartTorso.cs" t="Include" />
             <e p="SwapParts.cs" t="Include" />
           </e>
         </e>
